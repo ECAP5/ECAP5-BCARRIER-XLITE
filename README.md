@@ -2,7 +2,7 @@
 <div align="center">
     <img src="docs/src/assets/logo-rounded.svg" alt="Logo" width="80" height="80">
 
-  <h3 align="center">ECAP5-BSOM</h3>
+  <h3 align="center">ECAP5-BCARRIER-XLITE</h3>
 
   <p align="center">
     Extra-light carrier board for the ECAP5-BSOM bringup
