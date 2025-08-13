@@ -1,0 +1,36 @@
+build/
+.DS_Store
+**/.DS_Store
+**/*.drawio.bkp
+
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+src/*.000
+src/*.bak
+src/*.bck
+src/*.kicad_pcb-bak
+src/*.kicad_sch-bak
+src/*-backups
+src/*.kicad_prl
+src/*.sch-bak
+src/*~
+src/**/_autosave-*
+src/*.tmp
+src/*-save.pro
+src/*-save.kicad_pcb
+src/#auto_saved_files#
+src/fp-info-cache
+src/*.lck
+
+# Netlist files (exported from Eeschema)
+src/*.net
+
+# Autorouter files (exported from Pcbnew)
+src/*.dsn
+src/*.ses
+
+# Exported BOM files
+src/*.xml
+src/*.csv
