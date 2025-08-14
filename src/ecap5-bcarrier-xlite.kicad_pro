@@ -246,7 +246,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ECAP5-BCARRIER-XLITE"
+    ]
   },
   "meta": {
     "filename": "ecap5-bcarrier-xlite.kicad_pro",
@@ -395,7 +397,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://ecap5-title-block.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -407,6 +409,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "1031074d-9029-464c-8aee-89b18fdeb4ba",
+      "Root"
+    ],
+    [
+      "12072e32-257c-4f9a-9738-2457e4f54a1d",
+      "SOM1"
+    ],
+    [
+      "901ef935-e63c-4b17-b03c-3e809f34a13a",
+      "SOM2"
+    ],
+    [
+      "3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6",
+      "USB to UART"
+    ]
+  ],
   "text_variables": {}
 }
