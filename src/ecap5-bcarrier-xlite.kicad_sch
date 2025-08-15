@@ -1978,202 +1978,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN bipolar junction transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NPN_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -2645,6 +2449,202 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_NPN_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 5.08 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC846BR13"
+				(at 5.08 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN bipolar junction transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NPN_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_NPN_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3471,7 +3471,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 48.26) (xy 231.14 48.26)
+			(xy 241.3 48.26) (xy 224.79 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3581,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 43.18) (xy 231.14 43.18)
+			(xy 241.3 43.18) (xy 224.79 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3598,6 +3598,16 @@
 			(type default)
 		)
 		(uuid "2ab36396-9fd9-43c2-ad49-5eddfd5732c7")
+	)
+	(wire
+		(pts
+			(xy 241.3 54.61) (xy 224.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b339313-e6e2-4108-9802-464faf832509")
 	)
 	(wire
 		(pts
@@ -3691,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 45.72) (xy 231.14 45.72)
+			(xy 241.3 45.72) (xy 224.79 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3731,6 +3741,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 58.42) (xy 224.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c42a26-7720-45d3-9ff6-6ab7005f3828")
+	)
+	(wire
+		(pts
 			(xy 29.21 105.41) (xy 36.83 105.41)
 		)
 		(stroke
@@ -3738,6 +3758,16 @@
 			(type default)
 		)
 		(uuid "4b75d9a4-11f4-4346-b9e5-4bce5f4811e8")
+	)
+	(wire
+		(pts
+			(xy 241.3 36.83) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff9d6a6-9ee5-4a20-baf2-b26d08221c5f")
 	)
 	(wire
 		(pts
@@ -4131,6 +4161,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 52.07) (xy 224.79 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23a5832-8f69-4dfd-8835-6b9f6cf1fe25")
+	)
+	(wire
+		(pts
 			(xy 182.88 128.27) (xy 182.88 130.81)
 		)
 		(stroke
@@ -4248,6 +4288,16 @@
 			(type default)
 		)
 		(uuid "ba01a33d-4c29-4faa-9610-e9208afa51d7")
+	)
+	(wire
+		(pts
+			(xy 285.75 36.83) (xy 269.24 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5d424a-7ae5-483f-99cc-323ccb37fc9e")
 	)
 	(wire
 		(pts
@@ -4381,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 40.64) (xy 231.14 40.64)
+			(xy 241.3 40.64) (xy 224.79 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4550,7 +4600,7 @@
 		(uuid "095b440a-082d-4947-9780-b9355aabae8a")
 	)
 	(label "SOM1.JTAC_TDI"
-		(at 247.65 43.18 180)
+		(at 241.3 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4590,7 +4640,7 @@
 		(uuid "23cfdd6a-bc4d-4c66-beb9-5ddc1e36e898")
 	)
 	(label "TP.SINGLEENDED"
-		(at 173.99 90.17 180)
+		(at 241.3 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4600,7 +4650,7 @@
 		(uuid "26d42442-5b5b-4a1a-8f18-a1a467b16a32")
 	)
 	(label "SOM1.JTAC_TCK"
-		(at 247.65 40.64 180)
+		(at 241.3 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4670,7 +4720,7 @@
 		(uuid "42357994-897f-4f02-92ad-f70a4f4e4985")
 	)
 	(label "SOM1.JTAC_TMS"
-		(at 247.65 48.26 180)
+		(at 241.3 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4680,7 +4730,7 @@
 		(uuid "465e806a-2625-44ea-b3fb-92520198c5d4")
 	)
 	(label "SOM1.JTAC_TDO"
-		(at 247.65 45.72 180)
+		(at 241.3 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4740,7 +4790,7 @@
 		(uuid "6ab607a2-660f-4f41-a212-b20cdd3879a0")
 	)
 	(label "TP.DIFFN"
-		(at 173.99 95.25 180)
+		(at 241.3 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4930,7 +4980,7 @@
 		(uuid "dfee6f1e-565f-4a60-86b7-d096752bcf7d")
 	)
 	(label "TP.DIFFP"
-		(at 173.99 92.71 180)
+		(at 241.3 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4950,7 +5000,7 @@
 		(uuid "ee6b0edc-ed27-4890-aa8a-8ce65959d80b")
 	)
 	(label "SOM2.RESET_IN"
-		(at 173.99 72.39 180)
+		(at 285.75 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4970,7 +5020,7 @@
 		(uuid "f51969eb-beef-4991-aa62-9bf913a1dbab")
 	)
 	(label "SOM1.RESET_IN"
-		(at 173.99 69.85 180)
+		(at 241.3 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5692,80 +5742,6 @@
 			(project "ecap5-bcarrier-xlite"
 				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN")
-		(at 222.25 153.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f7d293d-0151-4758-9b0a-0bd5d80d687d")
-		(property "Reference" "Q2"
-			(at 217.17 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC846BR13"
-			(at 217.17 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 217.17 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN bipolar junction transistor"
-			(at 222.25 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "7a698d83-2870-43b3-aac8-5259b529ecc3")
-		)
-		(pin "B"
-			(uuid "d78e5c95-ea34-418a-87f3-78209b65815c")
-		)
-		(pin "E"
-			(uuid "f84a39f2-a4d4-4cbd-afdc-f9bdfb356e12")
-		)
-		(instances
-			(project "ecap5-bcarrier-xlite"
-				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6552,6 +6528,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Q_NPN_1")
 		(lib_id "Device:Q_NPN")
 		(at 185.42 153.67 0)
 		(mirror y)
@@ -6607,13 +6584,13 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "5710b098-d42e-4bc5-9998-27b60e3d1969")
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "e3aea642-fe05-4ac3-ac0b-a421a4e034a5")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "d4585c7e-c293-4586-8d84-b5d4cf37635a")
 		)
 		(instances
@@ -6831,6 +6808,81 @@
 			(project "ecap5-bcarrier-xlite"
 				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_NPN_1")
+		(lib_id "Device:Q_NPN")
+		(at 222.25 153.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58262429-1a50-4629-87c8-1c1ddb3bbaa4")
+		(property "Reference" "Q2"
+			(at 217.17 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846BR13"
+			(at 217.17 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN bipolar junction transistor"
+			(at 222.25 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65c6f03d-5e5f-4810-9e96-8607bcaedf9e")
+		)
+		(pin "2"
+			(uuid "c6003af8-b9df-4834-a493-7cef765c80c3")
+		)
+		(pin "3"
+			(uuid "26fbeee1-9e33-4ead-bd76-19479fd06d22")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9794,8 +9846,8 @@
 		)
 	)
 	(sheet
-		(at 210.82 34.29)
-		(size 20.32 20.32)
+		(at 204.47 34.29)
+		(size 20.32 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9810,7 +9862,7 @@
 		)
 		(uuid "12072e32-257c-4f9a-9738-2457e4f54a1d")
 		(property "Sheetname" "SOM1"
-			(at 210.82 33.5784 0)
+			(at 204.47 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +9871,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/som1.kicad_sch"
-			(at 210.82 55.1946 0)
+			(at 204.47 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +9881,7 @@
 			)
 		)
 		(pin "JTAG_TCK" input
-			(at 231.14 40.64 0)
+			(at 224.79 40.64 0)
 			(uuid "a0eb5b5f-2de6-4788-a1bd-e87cb27e9b70")
 			(effects
 				(font
@@ -9839,7 +9891,7 @@
 			)
 		)
 		(pin "JTAG_TDI" input
-			(at 231.14 43.18 0)
+			(at 224.79 43.18 0)
 			(uuid "ed291b67-7dd5-47da-80f1-a492a7c3cbd8")
 			(effects
 				(font
@@ -9849,7 +9901,7 @@
 			)
 		)
 		(pin "JTAG_TDO" input
-			(at 231.14 45.72 0)
+			(at 224.79 45.72 0)
 			(uuid "a145a5dc-ddde-4b67-9b47-b4a8ac5d22e5")
 			(effects
 				(font
@@ -9859,7 +9911,7 @@
 			)
 		)
 		(pin "JTAG_TMS" input
-			(at 231.14 48.26 0)
+			(at 224.79 48.26 0)
 			(uuid "fbe7eafd-5b64-431e-85a4-c1eb1b58dbd1")
 			(effects
 				(font
@@ -9869,8 +9921,38 @@
 			)
 		)
 		(pin "RESET_IN" input
-			(at 231.14 36.83 0)
+			(at 224.79 36.83 0)
 			(uuid "65f39dca-d576-4045-a9fd-0b4be506483a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RTD0N" input
+			(at 224.79 54.61 0)
+			(uuid "ee09ecb5-9ef6-4cf6-a38b-1473bdba5210")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RTD0P" input
+			(at 224.79 52.07 0)
+			(uuid "23f6c012-6035-4bb6-ae95-c3d94ec61edc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SE65" input
+			(at 224.79 58.42 0)
+			(uuid "53233877-fadb-40bd-8b0a-1c43a0f6d612")
 			(effects
 				(font
 					(size 1.27 1.27)

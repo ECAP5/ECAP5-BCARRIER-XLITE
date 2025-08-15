@@ -6171,6 +6171,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 83.82) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d8c803-b262-4bae-9ff4-73d0cd82e070")
+	)
+	(wire
+		(pts
 			(xy 269.24 124.46) (xy 269.24 121.92)
 		)
 		(stroke
@@ -6388,6 +6398,16 @@
 			(type default)
 		)
 		(uuid "530cf422-f70c-4937-a03e-c56ae64a0ac7")
+	)
+	(wire
+		(pts
+			(xy 16.51 127) (xy 25.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550d4be8-e0cd-4096-b6da-1654963b91cd")
 	)
 	(wire
 		(pts
@@ -7201,6 +7221,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 81.28) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77a6008-1c5f-47ee-8251-f9dd1409f83b")
+	)
+	(wire
+		(pts
 			(xy 67.31 137.16) (xy 67.31 140.97)
 		)
 		(stroke
@@ -7871,6 +7901,17 @@
 		)
 		(uuid "18b0e509-9dbc-4f73-98f9-8fde9a073ecc")
 	)
+	(hierarchical_label "SE65"
+		(shape input)
+		(at 16.51 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55c0077a-c140-407f-8e51-fa2790031862")
+	)
 	(hierarchical_label "JTAG_TDO"
 		(shape input)
 		(at 16.51 66.04 180)
@@ -7882,6 +7923,17 @@
 		)
 		(uuid "7434459b-3fbe-4bc4-9234-20742db874f9")
 	)
+	(hierarchical_label "RTD0N"
+		(shape input)
+		(at 154.94 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8aaf3fec-2a2c-4e0d-b375-e9883eaf43df")
+	)
 	(hierarchical_label "JTAG_TMS"
 		(shape input)
 		(at 16.51 55.88 180)
@@ -7892,6 +7944,17 @@
 			(justify right)
 		)
 		(uuid "9eaaa69d-1945-4ee7-b3ac-6226508cd136")
+	)
+	(hierarchical_label "RTD0P"
+		(shape input)
+		(at 154.94 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a51660bf-00c5-4ae0-b705-19b766e371a6")
 	)
 	(hierarchical_label "JTAG_TCK"
 		(shape input)
