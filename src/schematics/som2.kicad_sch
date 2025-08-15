@@ -8325,7 +8325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-BCARRIER-XLITE:SODIMM-260_DDR4_H4.0-5.2_OrientationStd_Socket"
 			(at 231.14 58.42 0)
 			(effects
 				(font
@@ -8345,6 +8345,15 @@
 		)
 		(property "Description" ""
 			(at 231.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "2309407-2"
+			(at 250.19 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +9308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-BCARRIER-XLITE:SODIMM-260_DDR4_H4.0-5.2_OrientationStd_Socket"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -9319,6 +9328,15 @@
 		)
 		(property "Description" ""
 			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "2309407-2"
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +10159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-BCARRIER-XLITE:SODIMM-260_DDR4_H4.0-5.2_OrientationStd_Socket"
 			(at 101.6 58.42 0)
 			(effects
 				(font
@@ -10161,6 +10179,15 @@
 		)
 		(property "Description" ""
 			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "2309407-2"
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11050,7 +11077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECAP5-BCARRIER-XLITE:SODIMM-260_DDR4_H4.0-5.2_OrientationStd_Socket"
 			(at 29.21 58.42 0)
 			(effects
 				(font
@@ -11070,6 +11097,15 @@
 		)
 		(property "Description" ""
 			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "2309407-2"
+			(at 48.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

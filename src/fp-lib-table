@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ECAP5-BCARRIER-XLITE")(type "KiCad")(uri "/Users/cchaine/Desktop/Documents/projects/.ecap5.nosync/boards/carrier-xlite/src/footprints")(options "")(descr ""))
+)
