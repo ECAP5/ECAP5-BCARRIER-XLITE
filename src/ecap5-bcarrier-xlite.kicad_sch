@@ -8446,12 +8446,12 @@
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 166.37 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8bb2e613-7cae-4b2c-b80b-e8707fa85179")
 		(property "Reference" "JP1"
 			(at 166.37 77.47 0)
@@ -9122,7 +9122,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab27108d-6a46-4f75-915d-3af9db87e530")
 		(property "Reference" "JP2"
 			(at 166.37 97.79 0)
