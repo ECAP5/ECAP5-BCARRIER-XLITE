@@ -5330,7 +5330,7 @@
 		(uuid "35530963-55ce-432f-8ca6-91d28a68acee")
 	)
 	(label "LED1"
-		(at 241.3 50.8 180)
+		(at 241.3 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5440,7 +5440,7 @@
 		(uuid "679e16ca-5e50-4cb3-8b4f-12dcdee21db9")
 	)
 	(label "LED2"
-		(at 241.3 53.34 180)
+		(at 241.3 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5539,7 +5539,7 @@
 		)
 		(uuid "961922ef-9b56-4d4e-9768-e640eda96a72")
 	)
-	(label "LED2"
+	(label "LED1"
 		(at 200.66 152.4 180)
 		(effects
 			(font
@@ -5599,7 +5599,7 @@
 		)
 		(uuid "c5a99dea-be8c-4a94-bad9-2c53a492f77a")
 	)
-	(label "LED1"
+	(label "LED2"
 		(at 163.83 152.4 180)
 		(effects
 			(font
