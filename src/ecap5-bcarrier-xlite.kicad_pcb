@@ -2289,7 +2289,7 @@
 		(tags "button tactile switch SPST 1P1T C&K")
 		(property "Reference" "SW3"
 			(at 0 -7.3 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d910041b-11dd-4bce-b066-8a80436994bc")
 			(effects
 				(font
@@ -5101,7 +5101,7 @@
 		(tags "button tactile switch SPST 1P1T C&K")
 		(property "Reference" "SW4"
 			(at 0 -7.3 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "421837dc-4330-40d8-979b-fdf7910cf33b")
 			(effects
 				(font
@@ -7142,7 +7142,7 @@
 			(uuid "b883b077-b971-4fd1-a2cc-87104ee137da")
 		)
 		(pad "A1" smd roundrect
-			(at -3.2 -3.68 90)
+			(at -3.2 -3.7 90)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7209,7 +7209,7 @@
 			(uuid "7a82bd69-840d-45be-ba2f-086ab95b8dfa")
 		)
 		(pad "A12" smd roundrect
-			(at 3.2 -3.68 90)
+			(at 3.2 -3.7 90)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7219,7 +7219,7 @@
 			(uuid "688602f9-791f-415d-9adc-407e2111da63")
 		)
 		(pad "B1" smd roundrect
-			(at 3.2 -3.68 90)
+			(at 3.2 -3.7 90)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7286,7 +7286,7 @@
 			(uuid "6df042e6-5513-4d94-a001-8b5ea3a40de9")
 		)
 		(pad "B12" smd roundrect
-			(at -3.2 -3.68 90)
+			(at -3.2 -3.7 90)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7305,7 +7305,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "7dc0c8ff-bef6-4aee-9799-a7a2e07aec11")
+			(uuid "0d5acb54-a67c-4ae0-9b83-65714649027a")
 		)
 		(pad "S1" thru_hole oval
 			(at -4.32 1.075 90)
@@ -7317,7 +7317,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "6b1599af-e310-4585-bfc5-6a9b95f7e82a")
+			(uuid "0d5acb54-a67c-4ae0-9b83-65714649027a")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 90)
@@ -7329,7 +7329,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "1ce846b1-6e10-4200-84ff-06aea8fb0743")
+			(uuid "0d5acb54-a67c-4ae0-9b83-65714649027a")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 90)
@@ -9094,7 +9094,7 @@
 		(tags "button tactile switch SPST 1P1T C&K")
 		(property "Reference" "SW2"
 			(at 0 -7.3 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "33b98b44-73f0-4c08-b892-9a5592e9a44e")
 			(effects
 				(font
@@ -19191,7 +19191,7 @@
 		(tags "button tactile switch SPST 1P1T C&K")
 		(property "Reference" "SW1"
 			(at 0 -7.3 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "16c4b4d8-0918-44b3-868d-348e775d06c0")
 			(effects
 				(font
