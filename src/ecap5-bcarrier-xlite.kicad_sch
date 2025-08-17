@@ -2246,131 +2246,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECAP5-BSOM:VIN9_15"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VIN9_15"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VIN9_15\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VIN9_15_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VIN9_15_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:Jumper_3_Open"
 			(pin_names
 				(offset 0)
@@ -3125,6 +3000,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VIN9_15:VIN9_15"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VIN9_15"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VIN9_15\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VIN9_15_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VIN9_15_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3346,6 +3346,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3951,6 +4052,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 21.59) (xy 40.64 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381a9ddd-1313-4f03-846b-1ce1604a2c14")
+	)
+	(wire
+		(pts
 			(xy 134.62 95.25) (xy 121.92 95.25)
 		)
 		(stroke
@@ -3988,6 +4099,16 @@
 			(type default)
 		)
 		(uuid "3bb57c2d-5b04-4cbb-8a7e-c09436727956")
+	)
+	(wire
+		(pts
+			(xy 52.07 67.31) (xy 57.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1b21eb-13f0-4ce7-8193-2013fd0d211e")
 	)
 	(wire
 		(pts
@@ -4121,6 +4242,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 22.86) (xy 40.64 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4984b1d8-367e-488a-b107-ebf1d19fcb0e")
+	)
+	(wire
+		(pts
 			(xy 29.21 105.41) (xy 36.83 105.41)
 		)
 		(stroke
@@ -4161,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 67.31) (xy 55.88 64.77)
+			(xy 57.15 67.31) (xy 57.15 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4188,6 +4319,26 @@
 			(type default)
 		)
 		(uuid "54643119-cdff-4cf0-839d-cbeac44e9828")
+	)
+	(wire
+		(pts
+			(xy 35.56 21.59) (xy 35.56 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c69d5c-a3c3-4af1-9fde-2afa5cc1b500")
+	)
+	(wire
+		(pts
+			(xy 19.05 27.94) (xy 19.05 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54da336d-db8d-41bf-be82-987c9a5f2cd3")
 	)
 	(wire
 		(pts
@@ -4491,6 +4642,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 21.59) (xy 24.13 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2f85e5-9e92-4cb4-8df4-251fe817052e")
+	)
+	(wire
+		(pts
 			(xy 55.88 82.55) (xy 63.5 82.55)
 		)
 		(stroke
@@ -4538,6 +4699,16 @@
 			(type default)
 		)
 		(uuid "83cd5eab-9271-4598-957a-8fd06e3dbb49")
+	)
+	(wire
+		(pts
+			(xy 58.42 36.83) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8794a1e0-2620-49b9-be02-921adae55e5b")
 	)
 	(wire
 		(pts
@@ -4631,6 +4802,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 22.86) (xy 19.05 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95eb0a15-c752-4e8b-9d8d-2da01567ae16")
+	)
+	(wire
+		(pts
 			(xy 224.79 76.2) (xy 248.92 76.2)
 		)
 		(stroke
@@ -4718,6 +4899,16 @@
 			(type default)
 		)
 		(uuid "a8050762-a8b1-4546-8ff7-0f43b4fbef10")
+	)
+	(wire
+		(pts
+			(xy 19.05 22.86) (xy 24.13 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a913a533-874f-4680-b811-c9c838a8d55e")
 	)
 	(wire
 		(pts
@@ -4921,16 +5112,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 67.31) (xy 55.88 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b27b97-7379-4816-aa7e-743bf866864e")
-	)
-	(wire
-		(pts
 			(xy 224.79 82.55) (xy 248.92 82.55)
 		)
 		(stroke
@@ -4948,16 +5129,6 @@
 			(type default)
 		)
 		(uuid "c5e436c3-8d82-4cac-9e69-161024456d4d")
-	)
-	(wire
-		(pts
-			(xy 58.42 36.83) (xy 69.85 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c790109a-843c-46d3-8ba0-f120a86ec8cb")
 	)
 	(wire
 		(pts
@@ -5181,7 +5352,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 59.69) (xy 55.88 58.42)
+			(xy 57.15 59.69) (xy 57.15 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5732,22 +5903,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 77.47 81.28) (xy 80.01 81.28) (xy 80.01 86.36) (xy 77.47 86.36)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 255 0 0 0.09)
-			)
-			(uuid 12318657-3c52-4ef6-98b1-9ca6d0718181)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 229.87 120.65) (xy 232.41 120.65) (xy 232.41 161.29) (xy 229.87 161.29)
 			)
 			(stroke
@@ -5758,7 +5913,7 @@
 				(type color)
 				(color 255 0 0 0.09)
 			)
-			(uuid 58754cf2-bb79-400d-9234-ceb95cdea87c)
+			(uuid 25a08b0d-b015-49c6-bab9-10c80a193f97)
 		)
 	)
 	(rule_area
@@ -5774,7 +5929,23 @@
 				(type color)
 				(color 255 0 0 0.09)
 			)
-			(uuid 70085b30-0d35-4b03-8f73-e153f6875394)
+			(uuid 5a3de07d-4e55-4191-aed7-98d061a0b4ad)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 77.47 81.28) (xy 80.01 81.28) (xy 80.01 86.36) (xy 77.47 86.36)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.09)
+			)
+			(uuid e8b60bd9-94c4-4f3f-a0d7-51ea144fbfae)
 		)
 	)
 	(netclass_flag ""
@@ -6130,6 +6301,72 @@
 			(project "ecap5-bcarrier-xlite"
 				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 24.13 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13d84d41-fab6-44cc-8e68-efd0eaa1a113")
+		(property "Reference" "#PWR058"
+			(at 24.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 24.13 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 24.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67f8e68b-6671-4961-b0af-405292a5f07b")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6905,6 +7142,71 @@
 		)
 	)
 	(symbol
+		(lib_id "VIN9_15:VIN9_15")
+		(at 40.64 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "307bf02f-fe0d-406d-b772-bcc7b0e0828a")
+		(property "Reference" "#PWR057"
+			(at 40.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN9_15"
+			(at 40.64 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VIN9_15\""
+			(at 40.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7209656-5c2c-463a-aea1-ecd3e69d2e5d")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 142.24 140.97 90)
 		(unit 1)
@@ -7316,6 +7618,73 @@
 			(project "ecap5-bcarrier-xlite"
 				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 35.56 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49af6b95-4817-41be-93cd-e8101e7b4607")
+		(property "Reference" "#FLG04"
+			(at 35.56 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 35.56 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 35.56 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e68afc0-54d3-4441-a9b6-943cd44bc90b")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -7762,7 +8131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ECAP5-BSOM:VIN9_15")
+		(lib_id "VIN9_15:VIN9_15")
 		(at 69.85 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8106,7 +8475,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 55.88 58.42 0)
+		(at 57.15 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8115,7 +8484,7 @@
 		(fields_autoplaced yes)
 		(uuid "673aeed7-6c13-4d95-ba64-23710e14d838")
 		(property "Reference" "#PWR027"
-			(at 55.88 62.23 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8493,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 55.88 53.34 0)
+			(at 57.15 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +8501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 58.42 0)
+			(at 57.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +8510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 58.42 0)
+			(at 57.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 55.88 58.42 0)
+			(at 57.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8239,7 +8608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ECAP5-BSOM:VIN9_15")
+		(lib_id "VIN9_15:VIN9_15")
 		(at 78.74 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8840,7 +9209,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9926befc-f8be-4f2d-8f37-9173730113e7")
 		(property "Reference" "R1"
 			(at 59.69 67.31 90)
@@ -9997,6 +10365,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 19.05 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e3a2d2-e824-4385-af3e-dfbee9c5f5a9")
+		(property "Reference" "#FLG02"
+			(at 19.05 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 19.05 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 19.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4c15fbb-f911-4a12-a0b0-a326304e95de")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 173.99 43.18 90)
 		(unit 1)
@@ -10350,7 +10785,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 55.88 62.23 0)
+		(at 57.15 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10359,7 +10794,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec4aef26-aab3-47c5-947e-5e62e822fa49")
 		(property "Reference" "FB1"
-			(at 58.42 60.9218 0)
+			(at 59.69 60.9218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,7 +10803,7 @@
 			)
 		)
 		(property "Value" "600R/0.5A"
-			(at 58.42 63.4618 0)
+			(at 59.69 63.4618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +10812,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 54.102 62.23 90)
+			(at 55.372 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +10821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 62.23 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,7 +10830,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 55.88 62.23 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +10839,7 @@
 			)
 		)
 		(property "Part" "MMZ1608Y601BTA00"
-			(at 55.88 62.23 0)
+			(at 57.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,6 +10857,139 @@
 			(project ""
 				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 19.05 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed393f87-6241-45c9-9cdc-68354814d6f9")
+		(property "Reference" "#FLG05"
+			(at 19.05 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 19.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 19.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e80d5f-1ef6-4faf-a0cb-06bbfabbddb5")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 19.05 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f00aa33d-5907-40b2-b1ae-a0b60fef16c2")
+		(property "Reference" "#PWR059"
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c453417-a6aa-4b69-bdc0-b9ea858001f9")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)

@@ -127,6 +127,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -483,7 +484,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -758,7 +759,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -957,7 +958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1230,7 +1231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1512,7 +1513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1711,7 +1712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1910,7 +1911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2109,7 +2110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2308,7 +2309,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2716,7 +2717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2950,7 +2951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3149,7 +3150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3348,7 +3349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3447,7 +3448,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3646,7 +3647,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3745,7 +3746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4077,7 +4078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4350,7 +4351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4623,7 +4624,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4822,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5021,7 +5022,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5120,7 +5121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6289,7 +6290,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6488,7 +6489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6770,7 +6771,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7383,7 +7384,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7582,7 +7583,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7816,7 +7817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8348,7 +8349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8680,7 +8681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8914,7 +8915,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9113,7 +9114,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9521,7 +9522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9834,7 +9835,7 @@
 				)
 			)
 		)
-		(path "/901ef935-e63c-4b17-b03c-3e809f34a13a/a66af804-6289-4fbc-8965-a2ef920958a3")
+		(path "/901ef935-e63c-4b17-b03c-3e809f34a13a/e19f0e6b-7de4-480b-a1ab-b38a6961f342")
 		(sheetname "/SOM2/")
 		(sheetfile "schematics/som2.kicad_sch")
 		(attr smd exclude_from_bom)
@@ -10651,7 +10652,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 204 "unconnected-(J2-Pad6)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "80b8896e-3825-4e2f-b3b1-0f936b7c73ea")
 		)
 		(pad "7" smd roundrect
@@ -10687,7 +10688,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 230 "unconnected-(J2-Pad10)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b42c2903-37cb-4d2c-8c04-d839be42c1e5")
 		)
 		(pad "11" smd roundrect
@@ -10705,7 +10706,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 213 "unconnected-(J2-Pad12)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8cb5963c-0520-4e47-94dd-bcec837a0260")
 		)
 		(pad "13" smd roundrect
@@ -10732,7 +10733,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 172 "unconnected-(J2-Pad15)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "21cbbc24-08a6-48c3-9478-a565789e5b0a")
 		)
 		(pad "16" smd roundrect
@@ -10741,7 +10742,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 259 "unconnected-(J2-Pad16)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f95f5590-026e-4787-a30d-9bdecfb1b9c6")
 		)
 		(pad "17" smd roundrect
@@ -10750,7 +10751,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 240 "unconnected-(J2-Pad17)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cb9e88d5-a8eb-4622-91d6-1ac67d03cd80")
 		)
 		(pad "18" smd roundrect
@@ -10759,7 +10760,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 198 "unconnected-(J2-Pad18)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "738ecf17-1733-4441-93ab-94aa46460f9c")
 		)
 		(pad "19" smd roundrect
@@ -10786,7 +10787,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 186 "unconnected-(J2-Pad21)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "526731cc-5316-4e69-bf47-7e47f71db2fe")
 		)
 		(pad "22" smd roundrect
@@ -10795,7 +10796,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 226 "unconnected-(J2-Pad22)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a73a22a4-ea5c-47cb-ada0-7728b977d5b7")
 		)
 		(pad "23" smd roundrect
@@ -10804,7 +10805,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 228 "unconnected-(J2-Pad23)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "ae8dea25-eb70-4832-9220-f481bf267a12")
 		)
 		(pad "24" smd roundrect
@@ -10813,7 +10814,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 192 "unconnected-(J2-Pad24)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "62bafa77-009d-45bd-b58b-218688ec6c82")
 		)
 		(pad "25" smd roundrect
@@ -10840,7 +10841,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 231 "unconnected-(J2-Pad27)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b917b061-a093-4094-8b39-8eb3b123746b")
 		)
 		(pad "28" smd roundrect
@@ -10849,7 +10850,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 216 "unconnected-(J2-Pad28)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "90496163-b741-47b0-9f00-3261a4ae67dc")
 		)
 		(pad "29" smd roundrect
@@ -10858,7 +10859,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 167 "unconnected-(J2-Pad29)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "186e2ed1-ce91-4eb4-92ce-68d6e6c89e0e")
 		)
 		(pad "30" smd roundrect
@@ -10867,7 +10868,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 233 "unconnected-(J2-Pad30)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b9d95f82-fbd2-46a9-9a9f-cda219fa2f20")
 		)
 		(pad "31" smd roundrect
@@ -10894,7 +10895,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 256 "unconnected-(J2-Pad33)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f233621f-54aa-4b99-8ba8-85cf635202de")
 		)
 		(pad "34" smd roundrect
@@ -10903,7 +10904,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 177 "unconnected-(J2-Pad34)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "397e3438-fa49-4146-85aa-0adadf0c3746")
 		)
 		(pad "35" smd roundrect
@@ -10912,7 +10913,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 211 "unconnected-(J2-Pad35)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8bfe471d-ef23-4265-ad6f-ed9779de28c7")
 		)
 		(pad "36" smd roundrect
@@ -10921,7 +10922,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 227 "unconnected-(J2-Pad36)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a8d025d0-1a99-4e92-9362-e97319acc93d")
 		)
 		(pad "37" smd roundrect
@@ -10948,7 +10949,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 195 "unconnected-(J2-Pad39)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "665d3369-e6e6-4c96-8073-ecfdb0cfdcdd")
 		)
 		(pad "40" smd roundrect
@@ -10957,7 +10958,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 218 "unconnected-(J2-Pad40)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "94b3b06b-15dc-49e3-afee-703406c0c682")
 		)
 		(pad "41" smd roundrect
@@ -10966,7 +10967,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 163 "unconnected-(J2-Pad41)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "06c44b7a-5f12-4b49-9460-35ff5bf2b9e3")
 		)
 		(pad "42" smd roundrect
@@ -10975,7 +10976,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 222 "unconnected-(J2-Pad42)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a0c7636e-367d-49c7-81d3-e54feba9f864")
 		)
 		(pad "43" smd roundrect
@@ -11002,7 +11003,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 241 "unconnected-(J2-Pad45)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cc0e9e90-1747-4833-814e-836a98c6cd02")
 		)
 		(pad "46" smd roundrect
@@ -11020,7 +11021,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 210 "unconnected-(J2-Pad47)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8a52f11a-ea43-4e07-973e-e7214fe6a768")
 		)
 		(pad "48" smd roundrect
@@ -11029,7 +11030,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 185 "unconnected-(J2-Pad48)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "513a56c3-ce66-42b5-ac11-eaf8c21a8360")
 		)
 		(pad "49" smd roundrect
@@ -11056,7 +11057,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 199 "unconnected-(J2-Pad51)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "78896bc8-a50e-4cad-8e2a-099a0ddc3a72")
 		)
 		(pad "52" smd roundrect
@@ -11074,7 +11075,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 248 "unconnected-(J2-Pad53)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d6ead83e-211f-43ac-9328-318dfc1566ec")
 		)
 		(pad "54" smd roundrect
@@ -11083,7 +11084,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 194 "unconnected-(J2-Pad54)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "663ef1d2-c5ca-46ea-ae6d-487092b7dd10")
 		)
 		(pad "55" smd roundrect
@@ -11110,7 +11111,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 263 "unconnected-(J2-Pad57)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "fb8fa6dd-df20-47d2-ac9f-1640f6a78323")
 		)
 		(pad "58" smd roundrect
@@ -11128,7 +11129,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 173 "unconnected-(J2-Pad59)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "26c5455a-1c9d-4ca4-acc1-47b179d9fe20")
 		)
 		(pad "60" smd roundrect
@@ -11137,7 +11138,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 234 "unconnected-(J2-Pad60)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "ba8386f1-2dbf-476a-a50e-94e3295a5b35")
 		)
 		(pad "61" smd roundrect
@@ -11191,7 +11192,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 166 "unconnected-(J2-Pad66)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1611907b-e19a-422c-b54a-6070ae7a21c9")
 		)
 		(pad "67" smd roundrect
@@ -11245,7 +11246,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 170 "unconnected-(J2-Pad72)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1a3064b4-4f5a-4448-9f5d-95541ac3ac99")
 		)
 		(pad "73" smd roundrect
@@ -11299,7 +11300,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 239 "unconnected-(J2-Pad78)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c8d726f5-830d-4047-a977-57e77ca77bce")
 		)
 		(pad "79" smd roundrect
@@ -11353,7 +11354,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 171 "unconnected-(J2-Pad84)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1e199976-4cf1-4ba3-ac40-769ae352ee6e")
 		)
 		(pad "85" smd roundrect
@@ -11407,7 +11408,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 223 "unconnected-(J2-Pad90)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a24a0e48-451d-48f1-883c-e54c4422f68c")
 		)
 		(pad "91" smd roundrect
@@ -11461,7 +11462,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 225 "unconnected-(J2-Pad96)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a4748fb0-8041-48e1-94c2-03cf9afbf606")
 		)
 		(pad "97" smd roundrect
@@ -11515,7 +11516,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 244 "unconnected-(J2-Pad102)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cef3cb0a-5218-4deb-b00a-2d96a15d649e")
 		)
 		(pad "103" smd roundrect
@@ -11569,7 +11570,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 179 "unconnected-(J2-Pad108)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "4201a7fb-b837-470e-bcc9-184fac2d9259")
 		)
 		(pad "109" smd roundrect
@@ -11623,7 +11624,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 253 "unconnected-(J2-Pad114)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e1ee0c7b-6a39-4cce-9ff2-93f3e18dd6bf")
 		)
 		(pad "115" smd roundrect
@@ -11677,7 +11678,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 160 "unconnected-(J2-Pad120)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "02142e8a-fcfb-4b6d-a476-7a9371e9b27d")
 		)
 		(pad "121" smd roundrect
@@ -11731,7 +11732,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 203 "unconnected-(J2-Pad126)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7e2ffd21-de0c-4e9d-83b4-aea77a444a36")
 		)
 		(pad "127" smd roundrect
@@ -11785,7 +11786,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 208 "unconnected-(J2-Pad132)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "85a464b8-edfc-4f6a-a125-57d2904e3202")
 		)
 		(pad "133" smd roundrect
@@ -11839,7 +11840,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 162 "unconnected-(J2-Pad138)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "04bda28c-c5cd-4076-bcbf-eaf4fbd70833")
 		)
 		(pad "139" smd roundrect
@@ -11875,7 +11876,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 205 "unconnected-(J2-Pad142)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8164df9c-bcec-43b2-bc1b-d5a3cbf46f56")
 		)
 		(pad "143" smd roundrect
@@ -11920,7 +11921,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 242 "unconnected-(J2-Pad147)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cc5f1710-cf89-4da3-abd2-163d6fc0e64f")
 		)
 		(pad "148" smd roundrect
@@ -11929,7 +11930,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 175 "unconnected-(J2-Pad148)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "29f07bb3-c9a9-414a-8c9b-3f23904d8a2b")
 		)
 		(pad "149" smd roundrect
@@ -11938,7 +11939,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 224 "unconnected-(J2-Pad149)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a300fbea-96e7-4ca6-995e-b2ed4b0e619b")
 		)
 		(pad "150" smd roundrect
@@ -11947,7 +11948,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 236 "unconnected-(J2-Pad150)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c02ce2e2-6b4f-4373-ba43-bf3e1bd98527")
 		)
 		(pad "151" smd roundrect
@@ -11974,7 +11975,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 212 "unconnected-(J2-Pad153)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8c05cf9d-53b2-4763-8f14-8ea207538078")
 		)
 		(pad "154" smd roundrect
@@ -11992,7 +11993,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 190 "unconnected-(J2-Pad155)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "593c806a-1689-4c69-a998-ee26b1fe5e71")
 		)
 		(pad "156" smd roundrect
@@ -12028,7 +12029,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 220 "unconnected-(J2-Pad159)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "99942bb6-cabe-4870-a488-83dd1509f59a")
 		)
 		(pad "160" smd roundrect
@@ -12037,7 +12038,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 206 "unconnected-(J2-Pad160)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "82ff6b01-8e0f-4605-9199-6747bf5b9864")
 		)
 		(pad "161" smd roundrect
@@ -12046,7 +12047,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 209 "unconnected-(J2-Pad161)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "863f123c-5c38-4405-9bfe-2633091f8180")
 		)
 		(pad "162" smd roundrect
@@ -12055,7 +12056,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 182 "unconnected-(J2-Pad162)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "48dd71fc-7540-4683-843e-8cab61eba17d")
 		)
 		(pad "163" smd roundrect
@@ -12082,7 +12083,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 219 "unconnected-(J2-Pad165)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "991619a3-b8b5-4ef3-b58a-fffbae3ea17a")
 		)
 		(pad "166" smd roundrect
@@ -12091,7 +12092,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 237 "unconnected-(J2-Pad166)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c3214706-6524-4c58-b353-69ea23a7d07d")
 		)
 		(pad "167" smd roundrect
@@ -12100,7 +12101,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 178 "unconnected-(J2-Pad167)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3bc3747e-3570-4d11-960f-864ef8a2bdf7")
 		)
 		(pad "168" smd roundrect
@@ -12109,7 +12110,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 215 "unconnected-(J2-Pad168)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8f430695-adaf-4b36-aee2-386df5d91972")
 		)
 		(pad "169" smd roundrect
@@ -12136,7 +12137,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 200 "unconnected-(J2-Pad171)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "794d74e1-7a28-4c6d-8592-bf4a153f1e35")
 		)
 		(pad "172" smd roundrect
@@ -12154,7 +12155,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 257 "unconnected-(J2-Pad173)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f5602482-c1c3-4044-83f5-cdd34d19670e")
 		)
 		(pad "174" smd roundrect
@@ -12190,7 +12191,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 169 "unconnected-(J2-Pad177)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1a0fc5e3-f159-4d23-9139-a0ffc1fed956")
 		)
 		(pad "178" smd roundrect
@@ -12199,7 +12200,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 314 "unconnected-(J2-Pad178)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "eb34f0d3-ef8a-4d2e-a8bf-4252946cc666")
 		)
 		(pad "179" smd roundrect
@@ -12208,7 +12209,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 202 "unconnected-(J2-Pad179)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7e014596-63db-41cd-9494-016200c90d29")
 		)
 		(pad "180" smd roundrect
@@ -12217,7 +12218,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 311 "unconnected-(J2-Pad180)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "acbf3eec-42a8-4360-8610-7fb4f1708362")
 		)
 		(pad "181" smd roundrect
@@ -12244,7 +12245,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 254 "unconnected-(J2-Pad183)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e6a1e9b1-0404-46fa-a210-f372d1045c67")
 		)
 		(pad "184" smd roundrect
@@ -12253,7 +12254,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 309 "unconnected-(J2-Pad184)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a4e6b39b-5dba-4ec0-8e87-bf148ad2b0b2")
 		)
 		(pad "185" smd roundrect
@@ -12262,7 +12263,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 164 "unconnected-(J2-Pad185)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "0bf3c07b-dd98-419e-a1a2-e7462151c784")
 		)
 		(pad "186" smd roundrect
@@ -12271,7 +12272,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 305 "unconnected-(J2-Pad186)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "235e1fc4-0885-40ca-b955-ff6215ff0cd5")
 		)
 		(pad "187" smd roundrect
@@ -12298,7 +12299,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 245 "unconnected-(J2-Pad189)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d0e7125d-d279-48a2-9f06-cb8bdc9858e0")
 		)
 		(pad "190" smd roundrect
@@ -12316,7 +12317,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 165 "unconnected-(J2-Pad191)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "15dc9b18-125a-4bb6-a31a-9958d6f90994")
 		)
 		(pad "192" smd roundrect
@@ -12352,7 +12353,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 247 "unconnected-(J2-Pad195)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d21ab938-8163-4dbb-b794-b589f0da5825")
 		)
 		(pad "196" smd roundrect
@@ -12370,7 +12371,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 201 "unconnected-(J2-Pad197)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7a042ccb-f446-4a79-a4ea-e1f578ec7a07")
 		)
 		(pad "198" smd roundrect
@@ -12406,7 +12407,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 252 "unconnected-(J2-Pad201)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e175ad5a-6ab4-4138-8081-7199b67ca5e1")
 		)
 		(pad "202" smd roundrect
@@ -12415,7 +12416,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 313 "unconnected-(J2-Pad202)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "dca4210b-7b04-4596-b52e-a2bd1e7ae96f")
 		)
 		(pad "203" smd roundrect
@@ -12424,7 +12425,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 262 "unconnected-(J2-Pad203)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "fb3d14a4-19f0-460c-b4ab-188c24a9980f")
 		)
 		(pad "204" smd roundrect
@@ -12433,7 +12434,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 307 "unconnected-(J2-Pad204)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3f19fdb0-ae6f-4b56-9ca9-c85b36fc0945")
 		)
 		(pad "205" smd roundrect
@@ -12460,7 +12461,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 183 "unconnected-(J2-Pad207)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "4be7d22f-f30e-4703-a9a7-485c64e283ec")
 		)
 		(pad "208" smd roundrect
@@ -12478,7 +12479,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 191 "unconnected-(J2-Pad209)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5c948d67-b52f-4df1-b5a2-dbeb4c675e84")
 		)
 		(pad "210" smd roundrect
@@ -12514,7 +12515,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 187 "unconnected-(J2-Pad213)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "55d7d769-eb61-4782-ab98-1b6c34702354")
 		)
 		(pad "214" smd roundrect
@@ -12532,7 +12533,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 229 "unconnected-(J2-Pad215)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b38e5287-ad68-405f-8f59-c8221b77b141")
 		)
 		(pad "216" smd roundrect
@@ -12568,7 +12569,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 217 "unconnected-(J2-Pad219)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "919518a7-7273-4ca6-aaf1-89e0a25c3208")
 		)
 		(pad "220" smd roundrect
@@ -12586,7 +12587,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 238 "unconnected-(J2-Pad221)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c599226e-8439-4cb9-8158-7022cd7cafe7")
 		)
 		(pad "222" smd roundrect
@@ -12622,7 +12623,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 260 "unconnected-(J2-Pad225)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "fae7f102-f614-4da2-8dbd-12f443adff46")
 		)
 		(pad "226" smd roundrect
@@ -12640,7 +12641,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 255 "unconnected-(J2-Pad227)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e8f22b9c-6dce-4989-91da-8fe9ccf383f7")
 		)
 		(pad "228" smd roundrect
@@ -12676,7 +12677,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 189 "unconnected-(J2-Pad231)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "58004f0b-1f6d-4dcd-bf00-62eb79143165")
 		)
 		(pad "232" smd roundrect
@@ -12685,7 +12686,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 308 "unconnected-(J2-Pad232)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "92d6a1b5-4e3f-4ae1-9eaa-4b5bcc6d79d9")
 		)
 		(pad "233" smd roundrect
@@ -12694,7 +12695,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 258 "unconnected-(J2-Pad233)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f88636a4-6a6a-436b-b161-657474bc5baf")
 		)
 		(pad "234" smd roundrect
@@ -12703,7 +12704,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 312 "unconnected-(J2-Pad234)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cb8f44e5-c29f-44cd-8937-3cbbc242ed28")
 		)
 		(pad "235" smd roundrect
@@ -12730,7 +12731,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 161 "unconnected-(J2-Pad237)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "03e83d16-a4c9-416a-970c-2c82451df7be")
 		)
 		(pad "238" smd roundrect
@@ -12748,7 +12749,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 168 "unconnected-(J2-Pad239)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1a008f7e-9237-49dc-89e8-a03348ee0663")
 		)
 		(pad "240" smd roundrect
@@ -12784,7 +12785,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 196 "unconnected-(J2-Pad243)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "6949e2b3-1fe4-487c-8ced-b90229e6c542")
 		)
 		(pad "244" smd roundrect
@@ -12793,7 +12794,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 310 "unconnected-(J2-Pad244)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a68cf527-bbf6-47f9-a739-38f8f0046eac")
 		)
 		(pad "245" smd roundrect
@@ -12802,7 +12803,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 265 "unconnected-(J2-Pad245)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "feb789da-31a6-497b-b865-fd6083003805")
 		)
 		(pad "246" smd roundrect
@@ -12811,7 +12812,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 306 "unconnected-(J2-Pad246)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "2735d164-5222-48e3-9bca-b75a4675a303")
 		)
 		(pad "247" smd roundrect
@@ -13033,7 +13034,7 @@
 				)
 			)
 		)
-		(path "/12072e32-257c-4f9a-9738-2457e4f54a1d/80bba08e-43b4-49e8-bbd1-9f28d86a0153")
+		(path "/12072e32-257c-4f9a-9738-2457e4f54a1d/93c99081-7b84-4f96-8169-a32bfea5bad7")
 		(sheetname "/SOM1/")
 		(sheetfile "schematics/som1.kicad_sch")
 		(attr smd exclude_from_bom)
@@ -13850,7 +13851,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 73 "unconnected-(J1-Pad6)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "67c4b4c8-5a7e-47d8-9ed6-8d404f6ebf70")
 		)
 		(pad "7" smd roundrect
@@ -13886,7 +13887,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 28 "unconnected-(J1-Pad10)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "178b7a70-0301-431c-9054-775fe7e3e163")
 		)
 		(pad "11" smd roundrect
@@ -13904,7 +13905,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 64 "unconnected-(J1-Pad12)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "565d524e-6f59-4a87-9bc0-ffa043b2ee1e")
 		)
 		(pad "13" smd roundrect
@@ -13931,7 +13932,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 149 "unconnected-(J1-Pad15)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e459c0a0-81fd-4eee-990f-d2e9006b6371")
 		)
 		(pad "16" smd roundrect
@@ -13940,7 +13941,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 75 "unconnected-(J1-Pad16)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "6ee1d20c-91e2-4ccb-9336-2d428f9cb411")
 		)
 		(pad "17" smd roundrect
@@ -13949,7 +13950,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 106 "unconnected-(J1-Pad17)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "9d893aae-5b13-455f-ab74-a44ea03987ed")
 		)
 		(pad "18" smd roundrect
@@ -13958,7 +13959,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 51 "unconnected-(J1-Pad18)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "42c21288-85e8-43af-9577-c2ef9ed937af")
 		)
 		(pad "19" smd roundrect
@@ -13985,7 +13986,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 158 "unconnected-(J1-Pad21)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "fa5cf44d-60d3-4fc3-975c-701943b6faec")
 		)
 		(pad "22" smd roundrect
@@ -13994,7 +13995,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 102 "unconnected-(J1-Pad22)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "981970d6-3431-4d70-b24c-8ba73a433be5")
 		)
 		(pad "23" smd roundrect
@@ -14003,7 +14004,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 104 "unconnected-(J1-Pad23)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "9be51644-1895-48df-b5d6-06e1c60d9d65")
 		)
 		(pad "24" smd roundrect
@@ -14012,7 +14013,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 115 "unconnected-(J1-Pad24)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "aee640eb-8b98-4015-8352-8f965b9c2604")
 		)
 		(pad "25" smd roundrect
@@ -14039,7 +14040,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 97 "unconnected-(J1-Pad27)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "901b04b6-2611-42c5-a8ae-0acb66693a92")
 		)
 		(pad "28" smd roundrect
@@ -14048,7 +14049,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 137 "unconnected-(J1-Pad28)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cbddd666-5109-4b36-92fb-39d7fb335fc7")
 		)
 		(pad "29" smd roundrect
@@ -14057,7 +14058,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 136 "unconnected-(J1-Pad29)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c82b399b-824f-411d-b9d7-46174f5d188c")
 		)
 		(pad "30" smd roundrect
@@ -14066,7 +14067,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 67 "unconnected-(J1-Pad30)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5da700a8-45e0-4241-a436-848fd7082809")
 		)
 		(pad "31" smd roundrect
@@ -14093,7 +14094,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 29 "unconnected-(J1-Pad33)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1924516e-f78c-4a44-bd23-5a4a330f244a")
 		)
 		(pad "34" smd roundrect
@@ -14102,7 +14103,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 63 "unconnected-(J1-Pad34)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "54f98d70-b42e-4524-8396-aa2607323706")
 		)
 		(pad "35" smd roundrect
@@ -14111,7 +14112,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 39 "unconnected-(J1-Pad35)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "300683c2-60c3-474e-8412-15dcc1b91418")
 		)
 		(pad "36" smd roundrect
@@ -14120,7 +14121,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 92 "unconnected-(J1-Pad36)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "88dd58d8-99ce-4f6c-9315-7f296d85db95")
 		)
 		(pad "37" smd roundrect
@@ -14147,7 +14148,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 85 "unconnected-(J1-Pad39)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7a872036-7eb2-438b-926a-5f93aa038796")
 		)
 		(pad "40" smd roundrect
@@ -14156,7 +14157,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 43 "unconnected-(J1-Pad40)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "36ddd9af-4629-4abc-9c7b-7a1cb4e8aa96")
 		)
 		(pad "41" smd roundrect
@@ -14165,7 +14166,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 156 "unconnected-(J1-Pad41)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f38264cd-a0af-4303-baec-156dffabe752")
 		)
 		(pad "42" smd roundrect
@@ -14174,7 +14175,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 134 "unconnected-(J1-Pad42)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c4db0e8e-2af7-4afe-8d05-466fb0929dee")
 		)
 		(pad "43" smd roundrect
@@ -14201,7 +14202,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 21 "unconnected-(J1-Pad45)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "0ab63aae-2b90-4a6a-9b53-51dd6f0ef82d")
 		)
 		(pad "46" smd roundrect
@@ -14219,7 +14220,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 84 "unconnected-(J1-Pad47)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "78a13e9f-a9e2-452f-88b2-54c3c3ecd1a5")
 		)
 		(pad "48" smd roundrect
@@ -14228,7 +14229,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 47 "unconnected-(J1-Pad48)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3da58431-18ba-452d-b85d-e5ea5f4a96fb")
 		)
 		(pad "49" smd roundrect
@@ -14255,7 +14256,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 91 "unconnected-(J1-Pad51)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "86c617c0-6b21-4f2d-bc76-aed8ab03e083")
 		)
 		(pad "52" smd roundrect
@@ -14273,7 +14274,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 34 "unconnected-(J1-Pad53)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "25e814b9-0521-4107-8a01-8ee4869ac702")
 		)
 		(pad "54" smd roundrect
@@ -14282,7 +14283,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 148 "unconnected-(J1-Pad54)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e3077137-0b11-4049-8420-621b6f7516d9")
 		)
 		(pad "55" smd roundrect
@@ -14309,7 +14310,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 65 "unconnected-(J1-Pad57)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "568e441d-15e5-42ea-95c1-6668a7a61be5")
 		)
 		(pad "58" smd roundrect
@@ -14336,7 +14337,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 36 "unconnected-(J1-Pad60)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "27cbd3c1-4556-4055-a775-7570fa911c62")
 		)
 		(pad "61" smd roundrect
@@ -14390,7 +14391,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 114 "unconnected-(J1-Pad66)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "adf35a56-238a-487a-9149-9f17be247852")
 		)
 		(pad "67" smd roundrect
@@ -14444,7 +14445,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 57 "unconnected-(J1-Pad72)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "4d60443c-1f5b-4d83-a9ac-9730493554e2")
 		)
 		(pad "73" smd roundrect
@@ -14498,7 +14499,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 41 "unconnected-(J1-Pad78)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "33ca0484-6c6b-41bd-87d8-97f4d5a3394e")
 		)
 		(pad "79" smd roundrect
@@ -14552,7 +14553,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 157 "unconnected-(J1-Pad84)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f950e3f0-ded6-495a-a1d9-e4609b219f8f")
 		)
 		(pad "85" smd roundrect
@@ -14606,7 +14607,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 153 "unconnected-(J1-Pad90)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e752371a-ef64-4080-97c2-aaf161270256")
 		)
 		(pad "91" smd roundrect
@@ -14660,7 +14661,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 132 "unconnected-(J1-Pad96)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c3633c5f-91d5-42f9-a36f-2c2caee87533")
 		)
 		(pad "97" smd roundrect
@@ -14714,7 +14715,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 142 "unconnected-(J1-Pad102)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d6a31457-9f3f-4545-b06b-3b4190c80b82")
 		)
 		(pad "103" smd roundrect
@@ -14768,7 +14769,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 96 "unconnected-(J1-Pad108)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8fa880e5-a245-40e2-b165-9958087319cd")
 		)
 		(pad "109" smd roundrect
@@ -14822,7 +14823,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 125 "unconnected-(J1-Pad114)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "bb871868-9f7c-42e9-942e-f984978d16ec")
 		)
 		(pad "115" smd roundrect
@@ -14876,7 +14877,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 151 "unconnected-(J1-Pad120)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e575884b-6383-4d7d-b554-8d169ab3096d")
 		)
 		(pad "121" smd roundrect
@@ -14930,7 +14931,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 61 "unconnected-(J1-Pad126)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "52008d69-ee36-48e8-a17e-c67ef0ad61b9")
 		)
 		(pad "127" smd roundrect
@@ -14984,7 +14985,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 88 "unconnected-(J1-Pad132)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "801458ae-2bad-440e-8fa2-0359c1109367")
 		)
 		(pad "133" smd roundrect
@@ -15173,7 +15174,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 79 "unconnected-(J1-Pad153)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7417816e-292f-4236-a4db-a91f7ab7974b")
 		)
 		(pad "154" smd roundrect
@@ -15191,7 +15192,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 20 "unconnected-(J1-Pad155)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "05549c6e-2abd-4345-bfe5-3a4cb92b2217")
 		)
 		(pad "156" smd roundrect
@@ -15227,7 +15228,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 55 "unconnected-(J1-Pad159)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "48631b6c-317f-4634-bc14-45e1690563d7")
 		)
 		(pad "160" smd roundrect
@@ -15245,7 +15246,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 93 "unconnected-(J1-Pad161)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8b8c8f9a-5188-4cdc-a49b-9a160bbffe69")
 		)
 		(pad "162" smd roundrect
@@ -15281,7 +15282,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 146 "unconnected-(J1-Pad165)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e14458ad-30bc-40c3-bde8-fa7a323aa71e")
 		)
 		(pad "166" smd roundrect
@@ -15299,7 +15300,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 112 "unconnected-(J1-Pad167)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a5f279b1-0e3a-4c50-b196-83f92fbee1e1")
 		)
 		(pad "168" smd roundrect
@@ -15335,7 +15336,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 94 "unconnected-(J1-Pad171)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8ef43f26-feb1-4ee3-9c9e-ac4b2bf75376")
 		)
 		(pad "172" smd roundrect
@@ -15353,7 +15354,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 69 "unconnected-(J1-Pad173)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "6456f7e9-0a3d-4e4e-abf4-7dabead0c0bd")
 		)
 		(pad "174" smd roundrect
@@ -15389,7 +15390,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 71 "unconnected-(J1-Pad177)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "6719e3f5-62b0-40e6-b841-5c1fa38bcca9")
 		)
 		(pad "178" smd roundrect
@@ -15407,7 +15408,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 110 "unconnected-(J1-Pad179)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a2cdae38-169c-4d2b-9873-95d700ecfbc3")
 		)
 		(pad "180" smd roundrect
@@ -15443,7 +15444,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 95 "unconnected-(J1-Pad183)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8f3fc0cb-6335-49c9-a9cb-d658bd80694b")
 		)
 		(pad "184" smd roundrect
@@ -15461,7 +15462,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 48 "unconnected-(J1-Pad185)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3ebc02b6-e9cf-490b-93cc-33417dc87007")
 		)
 		(pad "186" smd roundrect
@@ -15497,7 +15498,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 105 "unconnected-(J1-Pad189)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "9d4298af-470a-41ed-8767-ff31e4068de3")
 		)
 		(pad "190" smd roundrect
@@ -15515,7 +15516,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 49 "unconnected-(J1-Pad191)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "415e08fb-a897-4625-ad74-6d67d7299373")
 		)
 		(pad "192" smd roundrect
@@ -15551,7 +15552,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 117 "unconnected-(J1-Pad195)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b0c44aa7-395b-4304-9637-c11c39a419c2")
 		)
 		(pad "196" smd roundrect
@@ -15569,7 +15570,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 90 "unconnected-(J1-Pad197)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "865adf1f-f1b3-43be-9209-3dfb99f64209")
 		)
 		(pad "198" smd roundrect
@@ -15605,7 +15606,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 68 "unconnected-(J1-Pad201)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5f2e45e9-9abb-42b7-bc17-4f219fd4a512")
 		)
 		(pad "202" smd roundrect
@@ -15623,7 +15624,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 27 "unconnected-(J1-Pad203)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "174b4b8f-423a-428d-b4a4-36f51a00e77c")
 		)
 		(pad "204" smd roundrect
@@ -15659,7 +15660,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 46 "unconnected-(J1-Pad207)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3cdca215-1e0d-43ba-b026-8e6910337280")
 		)
 		(pad "208" smd roundrect
@@ -15668,7 +15669,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 128 "unconnected-(J1-Pad208)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "bf145f9e-14f1-434c-b71b-ed90afecdf65")
 		)
 		(pad "209" smd roundrect
@@ -15677,7 +15678,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 120 "unconnected-(J1-Pad209)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b60cc918-6527-48ae-83ad-eb91bc46f9df")
 		)
 		(pad "210" smd roundrect
@@ -15686,7 +15687,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 100 "unconnected-(J1-Pad210)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "96971440-2b21-4abb-b9f8-ccd18e66bdb4")
 		)
 		(pad "211" smd roundrect
@@ -15713,7 +15714,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 138 "unconnected-(J1-Pad213)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cde569bf-66a8-415e-8f4d-1b0dfda5f6ab")
 		)
 		(pad "214" smd roundrect
@@ -15722,7 +15723,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 144 "unconnected-(J1-Pad214)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "daf6828c-26fb-4c09-b394-3e2e258de959")
 		)
 		(pad "215" smd roundrect
@@ -15731,7 +15732,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 139 "unconnected-(J1-Pad215)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "ce826962-c2b1-4c03-9915-18418e318357")
 		)
 		(pad "216" smd roundrect
@@ -15740,7 +15741,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 98 "unconnected-(J1-Pad216)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "920923fd-58fb-41fc-992b-5a897a0d21e9")
 		)
 		(pad "217" smd roundrect
@@ -15767,7 +15768,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 135 "unconnected-(J1-Pad219)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c65f17af-6384-436a-86bc-da4d4de388f0")
 		)
 		(pad "220" smd roundrect
@@ -15776,7 +15777,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 122 "unconnected-(J1-Pad220)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b74214b4-3073-42ba-b9a3-ee10e994fa91")
 		)
 		(pad "221" smd roundrect
@@ -15785,7 +15786,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 80 "unconnected-(J1-Pad221)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "777d85f9-d849-4e1a-8ea5-d8fe0e23914d")
 		)
 		(pad "222" smd roundrect
@@ -15794,7 +15795,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 109 "unconnected-(J1-Pad222)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a1f4c4e9-6c70-4237-83ed-045768956aa6")
 		)
 		(pad "223" smd roundrect
@@ -15821,7 +15822,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 22 "unconnected-(J1-Pad225)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "0b35991a-4774-4431-8c9d-2f114bc02945")
 		)
 		(pad "226" smd roundrect
@@ -15830,7 +15831,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 44 "unconnected-(J1-Pad226)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "385f2e99-02af-4f67-98c9-3c743d5268e7")
 		)
 		(pad "227" smd roundrect
@@ -15839,7 +15840,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 143 "unconnected-(J1-Pad227)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d7dfe81f-8649-492c-99e0-e0276f99021b")
 		)
 		(pad "228" smd roundrect
@@ -15848,7 +15849,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 81 "unconnected-(J1-Pad228)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7869df82-8259-4e53-ac59-d156f1cdb257")
 		)
 		(pad "229" smd roundrect
@@ -15875,7 +15876,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 19 "unconnected-(J1-Pad231)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "024ac9a0-3661-45de-8fe1-46ae9067a4b0")
 		)
 		(pad "232" smd roundrect
@@ -15884,7 +15885,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 119 "unconnected-(J1-Pad232)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b4c77e7f-63c9-4964-a1fa-fc9bb837b414")
 		)
 		(pad "233" smd roundrect
@@ -15893,7 +15894,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 124 "unconnected-(J1-Pad233)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "bb219555-5510-41f3-bf52-69170dc50835")
 		)
 		(pad "234" smd roundrect
@@ -15902,7 +15903,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 87 "unconnected-(J1-Pad234)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7de3c243-c7eb-475e-baa4-3bf38ac360dc")
 		)
 		(pad "235" smd roundrect
@@ -15929,7 +15930,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 140 "unconnected-(J1-Pad237)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cfbc6650-8875-4a64-a226-87f0a3a1ef41")
 		)
 		(pad "238" smd roundrect
@@ -15938,7 +15939,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 113 "unconnected-(J1-Pad238)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "ab7f4ea2-ddae-47f0-aace-209419e978e2")
 		)
 		(pad "239" smd roundrect
@@ -15947,7 +15948,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 23 "unconnected-(J1-Pad239)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "0b83b480-e6e9-4aa6-b552-1f82dd930be2")
 		)
 		(pad "240" smd roundrect
@@ -15956,7 +15957,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 50 "unconnected-(J1-Pad240)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "41eca17d-9a10-4ff0-912e-23820c146f1a")
 		)
 		(pad "241" smd roundrect
@@ -15983,7 +15984,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 62 "unconnected-(J1-Pad243)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "537e09bb-f2f4-4201-8dcf-001eec74ae2b")
 		)
 		(pad "244" smd roundrect
@@ -15992,7 +15993,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 82 "unconnected-(J1-Pad244)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "787593c2-00ff-4b6e-b216-311d70f3a01a")
 		)
 		(pad "245" smd roundrect
@@ -16001,7 +16002,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 131 "unconnected-(J1-Pad245)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c329c1b8-bd22-4253-a397-b8d55ac4537e")
 		)
 		(pad "246" smd roundrect
@@ -16010,7 +16011,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 133 "unconnected-(J1-Pad246)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c3f1d28c-c7d0-4233-bc19-2c98bf8b6532")
 		)
 		(pad "247" smd roundrect
@@ -16194,7 +16195,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16428,7 +16429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16627,7 +16628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16839,7 +16840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17103,7 +17104,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17376,7 +17377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17575,7 +17576,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17774,7 +17775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17973,7 +17974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18255,7 +18256,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18429,7 +18430,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e23b5695-60bc-4cde-a412-c3a6492391c1")
-		(at 36.45 105.075 -90)
+		(at 36.83 105.075 -90)
 		(descr "Terminal Block Phoenix PT-1,5-2-5.0-H, 2 pins, pitch 5mm, size 10x9mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.mouser.com/ds/2/324/ItemDetail_1935161-922578.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix PT-1,5-2-5.0-H pitch 5mm size 10x9mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J9"
@@ -18454,7 +18455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18812,7 +18813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19011,7 +19012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19210,7 +19211,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19618,7 +19619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19817,7 +19818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19916,7 +19917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20502,8 +20503,8 @@
 		(uuid "3c511d6b-be58-4d76-bca7-2c3a7d86a238")
 	)
 	(gr_rect
-		(start 32.9125 100.225)
-		(end 33.0625 102.35)
+		(start 33.2775 100.225)
+		(end 33.4275 102.35)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -20877,8 +20878,8 @@
 		(uuid "98b85471-165d-4738-9fe7-5b6f4af87c7d")
 	)
 	(gr_rect
-		(start 31.3375 100.225)
-		(end 31.9125 102.35)
+		(start 31.7025 100.225)
+		(end 32.2775 102.35)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -21158,8 +21159,8 @@
 		(uuid "cfac7894-dc3f-4945-b9d6-3ad1a0d7580d")
 	)
 	(gr_rect
-		(start 31.3375 100.05)
-		(end 33.0625 100.2)
+		(start 31.7025 100.05)
+		(end 33.4275 100.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -21201,8 +21202,8 @@
 		(uuid "d76ab955-241d-44a5-aa6b-259e3c654358")
 	)
 	(gr_rect
-		(start 31.3375 102.3125)
-		(end 33.0625 102.4625)
+		(start 31.7025 102.3125)
+		(end 33.4275 102.4625)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -21616,7 +21617,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 31.95 100.125 270)
+		(at 32.315 100.125 270)
 		(layer "F.SilkS" knockout)
 		(uuid "9cc874cf-2b81-4309-a625-c5f4644199b3")
 		(effects
@@ -24019,7 +24020,7 @@
 		(uuid "117d75ae-76ee-49d7-90dc-8b116789565e")
 	)
 	(via
-		(at 191.961905 94.85)
+		(at 191.75 94.68)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -24300,15 +24301,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "21ae0b06-951a-4d77-a751-685c26344ffc")
-	)
-	(via
-		(at 191.75 117.7)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "21d6619a-0f1d-4d89-9d9d-4e62b5a1a6f5")
 	)
 	(via
 		(at 162.125 97.649999)
@@ -24721,15 +24713,6 @@
 		(uuid "3d3daf2c-4992-4c3c-b11f-1a5bb2e13d09")
 	)
 	(via
-		(at 123.272619 94.85)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "3d81c26d-9cb8-46c4-90d7-54e0ed2a153b")
-	)
-	(via
 		(at 87.725 91.85)
 		(size 0.6)
 		(drill 0.3)
@@ -24934,15 +24917,6 @@
 		(free yes)
 		(net 1)
 		(uuid "4d21971f-b5c5-4c3e-b36d-6d8583081f93")
-	)
-	(via
-		(at 92.757143 94.85)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "4e576907-ff24-457e-9128-e0bdbbd4fd9d")
 	)
 	(via
 		(at 41.975 97.65)
@@ -25172,15 +25146,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "5dd92600-580a-4fb4-8915-813923122288")
-	)
-	(via
-		(at 36.563095 84.425)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "5ddfd9e9-5c4d-4e3e-8dcb-5db1e89e989c")
 	)
 	(via
 		(at 78.725 91.85)
@@ -25439,15 +25404,6 @@
 		(free yes)
 		(net 1)
 		(uuid "70e79e79-5ce0-43f3-8621-88acaf339046")
-	)
-	(via
-		(at 51.827381 94.85)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "70fbd76e-5906-4b69-a9ae-1f8d94041e29")
 	)
 	(via
 		(at 31.475 99.791667)
@@ -26179,15 +26135,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "9a1fa884-8bf0-401f-8a25-3bb3afcbd80d")
-	)
-	(via
-		(at 169.075 94.85)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "9da690d0-05af-44f4-9ba2-f783b136de46")
 	)
 	(via
 		(at 161.221429 63.5)
@@ -65376,17 +65323,17 @@
 				(xy 117.218189 112.408609) (xy 117.218191 112.408609) (xy 117.168799 112.395375) (xy 117.090892 112.3745)
 				(xy 116.959108 112.3745) (xy 116.8812 112.395375) (xy 116.831809 112.408609) (xy 116.71769 112.474496)
 				(xy 116.624496 112.56769) (xy 116.558609 112.681809) (xy 116.551909 112.706814) (xy 116.5245 112.809108)
-				(xy 31.1505 112.809108) (xy 31.1505 109.956904) (xy 34.9495 109.956904) (xy 34.9495 110.193095)
-				(xy 34.986445 110.426363) (xy 35.059432 110.650992) (xy 35.165472 110.859109) (xy 35.166657 110.861433)
-				(xy 35.305483 111.05251) (xy 35.47249 111.219517) (xy 35.663567 111.358343) (xy 35.874008 111.465568)
-				(xy 36.098632 111.538553) (xy 36.098633 111.538553) (xy 36.098636 111.538554) (xy 36.331905 111.5755)
-				(xy 36.331908 111.5755) (xy 36.568095 111.5755) (xy 36.801363 111.538554) (xy 36.801364 111.538553)
-				(xy 36.801368 111.538553) (xy 37.025992 111.465568) (xy 37.236433 111.358343) (xy 37.42751 111.219517)
-				(xy 37.594517 111.05251) (xy 37.733343 110.861433) (xy 37.840568 110.650992) (xy 37.913553 110.426368)
-				(xy 37.921448 110.376523) (xy 37.9505 110.193095) (xy 37.9505 109.956904) (xy 37.913554 109.723636)
-				(xy 37.884708 109.634857) (xy 37.840568 109.499008) (xy 37.733343 109.288567) (xy 37.594517 109.09749)
-				(xy 37.42751 108.930483) (xy 37.236433 108.791657) (xy 37.236432 108.791656) (xy 37.23643 108.791655)
-				(xy 37.087612 108.715829) (xy 37.025992 108.684432) (xy 36.871112 108.634108) (xy 51.4745 108.634108)
+				(xy 31.1505 112.809108) (xy 31.1505 109.956904) (xy 35.3295 109.956904) (xy 35.3295 110.193095)
+				(xy 35.366445 110.426363) (xy 35.439432 110.650992) (xy 35.545472 110.859109) (xy 35.546657 110.861433)
+				(xy 35.685483 111.05251) (xy 35.85249 111.219517) (xy 36.043567 111.358343) (xy 36.254008 111.465568)
+				(xy 36.478632 111.538553) (xy 36.478633 111.538553) (xy 36.478636 111.538554) (xy 36.711905 111.5755)
+				(xy 36.711908 111.5755) (xy 36.948095 111.5755) (xy 37.181363 111.538554) (xy 37.181364 111.538553)
+				(xy 37.181368 111.538553) (xy 37.405992 111.465568) (xy 37.616433 111.358343) (xy 37.80751 111.219517)
+				(xy 37.974517 111.05251) (xy 38.113343 110.861433) (xy 38.220568 110.650992) (xy 38.293553 110.426368)
+				(xy 38.301448 110.376523) (xy 38.3305 110.193095) (xy 38.3305 109.956904) (xy 38.293554 109.723636)
+				(xy 38.264708 109.634857) (xy 38.220568 109.499008) (xy 38.113343 109.288567) (xy 37.974517 109.09749)
+				(xy 37.80751 108.930483) (xy 37.616433 108.791657) (xy 37.616432 108.791656) (xy 37.61643 108.791655)
+				(xy 37.467612 108.715829) (xy 37.405992 108.684432) (xy 37.251112 108.634108) (xy 51.4745 108.634108)
 				(xy 51.4745 108.765892) (xy 51.481404 108.791657) (xy 51.508609 108.89319) (xy 51.574496 109.007309)
 				(xy 51.576994 109.010564) (xy 51.597419 109.06824) (xy 51.580042 109.126906) (xy 51.577001 109.131093)
 				(xy 51.574499 109.134354) (xy 51.508609 109.248476) (xy 51.491821 109.311132) (xy 51.4745 109.375775)
@@ -65504,11 +65451,11 @@
 				(xy 52.28746 108.303449) (xy 52.282309 108.299496) (xy 52.168189 108.233609) (xy 52.168191 108.233609)
 				(xy 52.118799 108.220375) (xy 52.040892 108.1995) (xy 51.909108 108.1995) (xy 51.8312 108.220375)
 				(xy 51.781809 108.233609) (xy 51.66769 108.299496) (xy 51.574496 108.39269) (xy 51.508609 108.506809)
-				(xy 51.508608 108.506814) (xy 51.4745 108.634108) (xy 36.871112 108.634108) (xy 36.801363 108.611445)
-				(xy 36.568095 108.5745) (xy 36.568092 108.5745) (xy 36.331908 108.5745) (xy 36.331905 108.5745)
-				(xy 36.098636 108.611445) (xy 35.874007 108.684432) (xy 35.663569 108.791655) (xy 35.472491 108.930482)
-				(xy 35.305482 109.097491) (xy 35.166655 109.288569) (xy 35.059432 109.499007) (xy 34.986445 109.723636)
-				(xy 34.9495 109.956904) (xy 31.1505 109.956904) (xy 31.1505 106.584108) (xy 79.9245 106.584108)
+				(xy 51.508608 108.506814) (xy 51.4745 108.634108) (xy 37.251112 108.634108) (xy 37.181363 108.611445)
+				(xy 36.948095 108.5745) (xy 36.948092 108.5745) (xy 36.711908 108.5745) (xy 36.711905 108.5745)
+				(xy 36.478636 108.611445) (xy 36.254007 108.684432) (xy 36.043569 108.791655) (xy 35.852491 108.930482)
+				(xy 35.685482 109.097491) (xy 35.546655 109.288569) (xy 35.439432 109.499007) (xy 35.366445 109.723636)
+				(xy 35.3295 109.956904) (xy 31.1505 109.956904) (xy 31.1505 106.584108) (xy 79.9245 106.584108)
 				(xy 79.9245 106.715892) (xy 79.940472 106.7755) (xy 79.958609 106.84319) (xy 80.024496 106.957309)
 				(xy 80.024498 106.957311) (xy 80.0245 106.957314) (xy 80.117686 107.0505) (xy 80.117688 107.050501)
 				(xy 80.11769 107.050503) (xy 80.23181 107.11639) (xy 80.231808 107.11639) (xy 80.231812 107.116391)
