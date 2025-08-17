@@ -6803,7 +6803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR"
+		(property "Footprint" "ECAP5-BCARRIER-XLITE:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR_1"
 			(at 107.95 125.73 0)
 			(effects
 				(font
@@ -7090,7 +7090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR"
+		(property "Footprint" "ECAP5-BCARRIER-XLITE:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR_1"
 			(at 72.39 125.73 0)
 			(effects
 				(font
@@ -9294,7 +9294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR"
+		(property "Footprint" "ECAP5-BCARRIER-XLITE:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR_1"
 			(at 109.22 147.32 0)
 			(effects
 				(font
@@ -10249,7 +10249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR"
+		(property "Footprint" "ECAP5-BCARRIER-XLITE:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR_1"
 			(at 73.66 147.32 0)
 			(effects
 				(font
