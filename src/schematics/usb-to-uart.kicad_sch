@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "df642683-8814-4b80-b51b-7e85800b57af")
 	(paper "A4")
+	(title_block
+		(title "ECAP5-BCARRIER-XLITE")
+		(date "2025-09-21")
+		(rev "1.0")
+		(comment 1 "ECAP5")
+		(comment 2 "USB to UART")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -128,6 +135,189 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1296,6 +1486,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.965 93.98) (xy 227.965 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07716b6b-818d-4de3-9e2d-5426e5856ba0")
+	)
+	(wire
+		(pts
 			(xy 166.37 113.03) (xy 173.99 113.03)
 		)
 		(stroke
@@ -1303,6 +1503,16 @@
 			(type default)
 		)
 		(uuid "0e282f82-ba5d-48a3-a926-67dee5de0c48")
+	)
+	(wire
+		(pts
+			(xy 227.965 104.14) (xy 227.965 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8fd7b3-7659-44b5-919b-4dd14d596df7")
 	)
 	(wire
 		(pts
@@ -1353,6 +1563,16 @@
 			(type default)
 		)
 		(uuid "1b79507f-08c7-4ea5-8382-6456fb5edfa1")
+	)
+	(wire
+		(pts
+			(xy 250.825 93.98) (xy 250.825 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20803120-aad1-40e0-ac51-257b4083e1c8")
 	)
 	(wire
 		(pts
@@ -1446,6 +1666,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.825 86.36) (xy 250.825 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415cdb10-cca3-4dd3-b470-0211987a322b")
+	)
+	(wire
+		(pts
 			(xy 171.45 68.58) (xy 162.56 68.58)
 		)
 		(stroke
@@ -1453,6 +1683,16 @@
 			(type default)
 		)
 		(uuid "4232e176-3c72-4a60-bfbe-9b224737410d")
+	)
+	(wire
+		(pts
+			(xy 215.265 113.03) (xy 227.965 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f17334-d21e-451e-a917-b79db3c8664f")
 	)
 	(wire
 		(pts
@@ -1533,6 +1773,26 @@
 			(type default)
 		)
 		(uuid "60ad9500-31c4-4b5f-ab30-69919e140e4f")
+	)
+	(wire
+		(pts
+			(xy 227.965 86.36) (xy 227.965 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6852f1c3-4e12-4fc7-a8c8-d6e32f37dcb3")
+	)
+	(wire
+		(pts
+			(xy 250.825 113.03) (xy 250.825 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687a0fa9-39d6-4fd6-aff6-9efcfdee2ede")
 	)
 	(wire
 		(pts
@@ -1786,6 +2046,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.125 113.03) (xy 250.825 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3169ae9-2abc-43f0-bea6-ce7e92e0a722")
+	)
+	(wire
+		(pts
 			(xy 123.19 68.58) (xy 132.08 68.58)
 		)
 		(stroke
@@ -1864,6 +2134,46 @@
 		)
 		(uuid "fd57b27c-1a07-4131-9f29-80c6538d2e02")
 	)
+	(label "~{TXLED}"
+		(at 173.99 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0bc23074-bcd3-45dc-8375-bbbc3a735357")
+	)
+	(label "~{TXLED}"
+		(at 215.265 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b7a6d30-3850-4414-b4a8-85b6ced56432")
+	)
+	(label "~{RXLED}"
+		(at 238.125 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2200de0b-209b-4b23-96c1-f16cc5005ac5")
+	)
+	(label "~{RXLED}"
+		(at 173.99 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "620f2843-d40a-4fb4-9c95-180b6971b663")
+	)
 	(hierarchical_label "RI"
 		(shape input)
 		(at 173.99 102.87 0)
@@ -1874,17 +2184,6 @@
 			(justify left)
 		)
 		(uuid "06687b90-5f21-4d6f-973f-2fbf7e17dedc")
-	)
-	(hierarchical_label "~{TXLED}"
-		(shape input)
-		(at 173.99 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1617267b-49bb-4455-be35-61a6c046c4d9")
 	)
 	(hierarchical_label "USBDP"
 		(shape input)
@@ -1985,17 +2284,6 @@
 		)
 		(uuid "cd09bae8-af7b-4222-97bc-10b4aa98fadf")
 	)
-	(hierarchical_label "~{RXLED}"
-		(shape input)
-		(at 173.99 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec0a57ff-9493-463e-9e89-f889eb509fbd")
-	)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 91.44 0)
@@ -2051,6 +2339,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10C470JB8NNNC"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da2eadd1-99b5-4216-ba4a-0e262317f4bc")
 		)
@@ -2061,6 +2358,85 @@
 			(project "ecap5-bcarrier-xlite"
 				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 227.965 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fbae634-1d3b-4073-b737-a60411254c92")
+		(property "Reference" "R7"
+			(at 226.187 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 225.679 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 227.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 227.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 227.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7447eb1-c9cf-4a43-8943-f24b060fbf80")
+		)
+		(pin "2"
+			(uuid "75f09788-a0bb-49c6-a9bd-f69860e47f67")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2200,6 +2576,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 250.825 100.33 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "286bb7f7-6f5d-410b-aaaf-1b9d206997ec")
+		(property "Reference" "D6"
+			(at 247.015 100.6474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060GS75000"
+			(at 247.015 103.1874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 250.825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 250.825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 250.825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060GS75000"
+			(at 250.825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57ff00ad-52b3-49a6-95fe-c8c183caf860")
+		)
+		(pin "2"
+			(uuid "c452c603-0d2b-4e03-8376-a0509e5c2da7")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 162.56 64.77 0)
 		(mirror y)
@@ -2247,6 +2712,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 162.56 64.77 0)
 			(effects
 				(font
@@ -2318,6 +2792,15 @@
 		)
 		(property "Description" "USB to Serial Interface, QFN"
 			(at 148.082 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FT232RN"
+			(at 146.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,6 +2966,85 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 250.825 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "485ab18d-7138-4e6f-971b-41b114d70aa7")
+		(property "Reference" "R6"
+			(at 249.047 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 248.539 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 250.825 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.825 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 250.825 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 250.825 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97025ba7-48b9-4744-b767-86cc5ef65f07")
+		)
+		(pin "2"
+			(uuid "20e5d9f6-11c3-4c5d-8116-a1475fd43755")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 115.57 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2528,6 +3090,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -2618,6 +3189,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 227.965 100.33 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56abbd81-2859-49c4-94c2-fcc950aab525")
+		(property "Reference" "D7"
+			(at 224.155 100.6474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060GS75000"
+			(at 224.155 103.1874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 227.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 227.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 227.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060GS75000"
+			(at 227.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51a41723-35a4-4a0f-9ff2-7e716ed8acf6")
+		)
+		(pin "2"
+			(uuid "4ea19103-e975-4c53-9665-87af072ac20d")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 124.46 0)
 		(unit 1)
@@ -2664,6 +3324,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 105.41 124.46 0)
 			(effects
 				(font
@@ -2742,6 +3411,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF4701T5E"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6690b429-7dfb-483b-b19f-43c34ded6aac")
 		)
@@ -2804,6 +3482,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
 			(at 123.19 64.77 0)
 			(effects
 				(font
@@ -2949,6 +3636,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d204014b-8e5f-43f7-a233-6ab008a701c0")
 		)
@@ -3077,6 +3773,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C470JB8NNNC"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -3221,6 +3926,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a29d9da4-d2a8-4a92-8f64-e1d45519da9a")
 		)
@@ -3298,6 +4012,73 @@
 			(project "ecap5-bcarrier-xlite"
 				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 227.965 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d4dce6-f26f-4be4-84aa-472474526264")
+		(property "Reference" "#PWR046"
+			(at 227.965 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 227.965 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.965 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.965 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 227.965 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f14da742-8b1b-4e90-9248-6c43e0ab4c64")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3430,6 +4211,73 @@
 			(project "ecap5-bcarrier-xlite"
 				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 250.825 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec0c01ea-3465-4587-b6c8-44465c7dab00")
+		(property "Reference" "#PWR044"
+			(at 250.825 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 250.825 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.825 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.825 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 250.825 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa06f2f4-973e-420e-a92c-293e6230faf9")
+		)
+		(instances
+			(project "ecap5-bcarrier-xlite"
+				(path "/1031074d-9029-464c-8aee-89b18fdeb4ba/3c1daf5a-b6bd-46c5-b4f8-d1211902b3c6"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
