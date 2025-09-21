@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "7c0e45de-a592-4776-8ce2-626e60b08ecb")
 	(paper "A4")
+	(title_block
+		(title "ECAP5-BCARRIER-XLITE")
+		(date "2025-09-21")
+		(rev "1.0")
+		(comment 1 "ECAP5")
+		(comment 2 "SOM2")
+	)
 	(lib_symbols
 		(symbol "ECAP5-BCARRIER-XLITE:IO_CONN"
 			(exclude_from_sim no)
@@ -9402,7 +9409,7 @@
 		(at 250.19 95.25 0)
 		(unit 4)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9451,6 +9458,15 @@
 			)
 		)
 		(property "Part" "2309407-2"
+			(at 250.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2309407-1"
 			(at 250.19 95.25 0)
 			(effects
 				(font
@@ -10385,7 +10401,7 @@
 		(at 185.42 95.25 0)
 		(unit 3)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10434,6 +10450,15 @@
 			)
 		)
 		(property "Part" "2309407-2"
+			(at 185.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2309407-1"
 			(at 185.42 95.25 0)
 			(effects
 				(font
@@ -11236,7 +11261,7 @@
 		(at 120.65 95.25 0)
 		(unit 2)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11285,6 +11310,15 @@
 			)
 		)
 		(property "Part" "2309407-2"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2309407-1"
 			(at 120.65 95.25 0)
 			(effects
 				(font
@@ -12154,7 +12188,7 @@
 		(at 48.26 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12203,6 +12237,15 @@
 			)
 		)
 		(property "Part" "2309407-2"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2309407-1"
 			(at 48.26 95.25 0)
 			(effects
 				(font
