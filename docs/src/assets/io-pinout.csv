@@ -1,0 +1,10 @@
+Signal Name;I/O;Alternate function;Voltage Standards;Differential Pair;DQS Group;Prefered FPGA pin
+JTAG_TCK;I;;LVCMOS33;;;TCK
+JTAG_TDI;I;;LVCMOS33;;;TDI
+JTAG_TDO;O;;LVCMOS33;;;TDO
+JTAG_TMS;I;;LVCMOS33;;;TMS
+RS[0-64]P;I;SE[0-130];;RS[0-64]N;;
+RS[0-64]N;I;SE[0-130];;RS[0-64]P;;
+RTS[0-64]P;I;SE[0-130];;RTS[0-64]N;;
+RTS[0-64]N;I;SE[0-130];;RTS[0-64]P;;
+RESET_I;I;;LVCMOS33;;
