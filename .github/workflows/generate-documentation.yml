@@ -1,0 +1,79 @@
+name: Generate the documentation
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main", "release/**"]
+
+permissions:
+  actions: write
+
+env:
+  # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
+  BUILD_TYPE: Release
+  DOCUMENTATION_ARTIFACT_NAME: ecap5-bcarrier-xlite-docs-${{github.run_number}}-${{github.run_attempt}}
+  BUILD_CACHE_KEY: build-directory-${{ github.run_id }}-${{ github.run_attempt }}
+
+jobs:
+  prepare:
+    runs-on: self-hosted
+
+    steps:
+    - uses: actions/checkout@v4.1.1
+
+    - name: Configure CMake
+      run: cmake -B ${{github.workspace}}/build -GNinja
+
+    - name: Cache build directory
+      if: always()
+      uses: actions/cache/save@v4.3.0
+      env:
+        cache-folder-path: ${{github.workspace}}/build
+      with:
+        path: ${{ env.cache-folder-path }}
+        key: ${{ runner.os }}-${{env.BUILD_CACHE_KEY}}
+
+  documentation:
+    runs-on: self-hosted
+    needs: prepare
+
+    steps:
+    - uses: actions/checkout@v4.1.1
+
+    - name: Import build directory
+      uses: actions/cache/restore@v4.3.0
+      env:
+        cache-folder-path: ${{github.workspace}}/build
+      with:
+        path: ${{ env.cache-folder-path }}
+        key: ${{ runner.os }}-${{env.BUILD_CACHE_KEY}}
+
+    - name: Generate documentation
+      run: ninja -C ${{github.workspace}}/build docs
+
+    - uses: actions/upload-pages-artifact@v3.0.1
+      with: 
+        name: ${{env.DOCUMENTATION_ARTIFACT_NAME}}
+        path: ${{github.workspace}}/build/docs/documentation/build/html
+
+  deploy:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: self-hosted
+
+    needs: documentation
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - uses: actions/deploy-pages@v4.0.4
+      id: deployment
+      with:
+        artifact_name: ${{env.DOCUMENTATION_ARTIFACT_NAME}}
+        preview: true
