@@ -12,6 +12,67 @@
   </p>
 </div>
 
+## Feature status
+
+Status of the board feature's bringup :
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>1.0.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Power input protections</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>SOM power</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>SOM JTAG</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>SOM reset</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>UART-to-USB</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>SOM-to-SOM 8x differential-pairs bus</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>SOM-to-SOM 16x single-ended bus</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>SOM single-ended testpoint</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>SOM differential-pair testpoint</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>User LEDs</td>
+      <td>⏲️</td>
+    </tr>
+    <tr>
+      <td>User Buttons</td>
+      <td>⏲️</td>
+    </tr>
+  </tbody>
+</table>
+
+See the [open issues](https://github.com/ecap5/ecap5-dproc/issues) for a full list of future features (and known issues).
+
 ## Licenses
 
 - Software and configuration files are distributed under the GPL-3.0 license.
