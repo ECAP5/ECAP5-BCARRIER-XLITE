@@ -71,7 +71,7 @@ Status of the board feature's bringup :
   </tbody>
 </table>
 
-See the [errata]([https://github.com/ecap5/ecap5-dproc/issues](https://ecap5.github.io/ECAP5-BCARRIER-XLITE/errata/1.0.html)) for a full description of known issues.
+See the [errata](https://ecap5.github.io/ECAP5-BCARRIER-XLITE/errata/1.0.html) for a full description of known issues.
 
 ## Licenses
 
