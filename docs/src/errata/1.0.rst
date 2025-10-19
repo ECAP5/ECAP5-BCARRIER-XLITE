@@ -1,14 +1,14 @@
 1.0
 ===
 
-E001 - UART power
------------------
+E001 - Wrong UART power
+-----------------------
 
 .. list-table::
    :widths: 10 90
 
    * - Impacted revision
-     - :bdg-primary-line:`1.0`
+     - :bdg-muted-line:`1.0`
 
    * - Criticity
      - :bdg-danger:`critical`
@@ -24,3 +24,51 @@ E001 - UART power
 
    * - Linked issue
      - `Issue #11 <https://github.com/ECAP5/ECAP5-BCARRIER-XLITE/issues/11>`_
+
+E002 - Missing pull-down on LEDs
+--------------------------------
+
+.. list-table::
+   :widths: 10 90
+
+   * - Impacted revision
+     - :bdg-muted-line:`1.0`
+
+   * - Criticity
+     - :bdg-warning:`moderate`
+
+   * - Description
+     - The user LEDs input signal is left floating when unconnected/unused.
+
+   * - Impact
+     - The LEDs might randomly turn on.
+
+   * - Workaround
+     - Add a pull-down resistor on the LEDs inputs.
+
+   * - Linked issue
+     - `Issue #15 <https://github.com/ECAP5/ECAP5-BCARRIER-XLITE/issues/15>`_
+
+E003 - LEDs too bright
+----------------------
+
+.. list-table::
+   :widths: 10 90
+
+   * - Impacted revision
+     - :bdg-muted-line:`1.0`
+
+   * - Criticity
+     - :bdg-info:`low`
+
+   * - Description
+     - The LEDs are too bright.
+
+   * - Impact
+     - Unconfortable to the eye.
+
+   * - Workaround
+     - Decrease the current running through the LEDs by changing resistor values.
+
+   * - Linked issue
+     - `Issue #16 <https://github.com/ECAP5/ECAP5-BCARRIER-XLITE/issues/16>`_
