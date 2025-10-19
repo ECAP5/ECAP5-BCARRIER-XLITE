@@ -2,7 +2,7 @@
 ===
 
 E001 - Inverted USB DP/DM
------------------------
+-------------------------
 
 .. list-table::
    :widths: 10 90
@@ -72,3 +72,27 @@ E003 - LEDs too bright
 
    * - Linked issue
      - `Issue #16 <https://github.com/ECAP5/ECAP5-BCARRIER-XLITE/issues/16>`_
+
+E004 - USB TVS orientation
+--------------------------
+
+.. list-table::
+   :widths: 10 90
+
+   * - Impacted revision
+     - :bdg-muted-line:`1.0`
+
+   * - Criticity
+     - :bdg-warning:`moderate`
+
+   * - Description
+     - The part used for the TVS diodes of the USB data signals (ESD321) is uni-directional instead of bidirectional as stated in the schematics, and the orientation of the SOD-523 package is difficult to determine. On the first batch of prototypes, the diodes were soldered in reverse, leading to a non-functional USB connection.
+
+   * - Impact
+     - There is a risk of soldering the diodes in reverse, leading to a non-functional UART-to-USB sub-circuit.
+
+   * - Workaround
+     - None if soldered properly, remove the diodes otherwise.
+
+   * - Linked issue
+     - `Issue #20 <https://github.com/ECAP5/ECAP5-BCARRIER-XLITE/issues/20>`_
