@@ -28,6 +28,7 @@ if(Sphinx_FOUND)
       "${CMAKE_CURRENT_LIST_DIR}/src/design/7_misc.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/design/8_mechanical.rst"
       "${CMAKE_CURRENT_LIST_DIR}/src/design/9_routing.rst"
+      "${CMAKE_CURRENT_LIST_DIR}/src/errata/1.0.rst"
     )
 else()
   message(WARNING "No Sphinx found. Documentation target not available.")

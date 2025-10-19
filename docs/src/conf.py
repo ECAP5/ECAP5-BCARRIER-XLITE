@@ -22,7 +22,8 @@ extensions = [
     'sphinx_rtd_theme', 
     'sphinx.ext.todo',
     'linuxdoc.rstFlatTable',
-    'requirement']
+    'requirement',
+    'sphinx_design']
 templates_path = ['_templates']
 exclude_patterns = []
 
