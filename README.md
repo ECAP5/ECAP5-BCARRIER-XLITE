@@ -20,7 +20,7 @@ Status of the board feature's bringup :
   <thead>
     <tr>
       <th>Feature</th>
-      <th>1.0.0</th>
+      <th>1.0</th>
     </tr>
   </thead>
   <tbody>
@@ -42,7 +42,7 @@ Status of the board feature's bringup :
     </tr>
     <tr>
       <td>UART-to-USB</td>
-      <td>⏲️</td>
+      <td>⚠️</td>
     </tr>
     <tr>
       <td>SOM-to-SOM 8x differential-pairs bus</td>
@@ -71,7 +71,7 @@ Status of the board feature's bringup :
   </tbody>
 </table>
 
-See the [open issues](https://github.com/ecap5/ecap5-dproc/issues) for a full list of future features (and known issues).
+See the [errata]([https://github.com/ecap5/ecap5-dproc/issues](https://ecap5.github.io/ECAP5-BCARRIER-XLITE/errata/1.0.html)) for a full description of known issues.
 
 ## Licenses
 
