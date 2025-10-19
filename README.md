@@ -62,7 +62,7 @@ Status of the board feature's bringup :
     </tr>
     <tr>
       <td>User LEDs</td>
-      <td>⏲️</td>
+      <td>⚠️</td>
     </tr>
     <tr>
       <td>User Buttons</td>
