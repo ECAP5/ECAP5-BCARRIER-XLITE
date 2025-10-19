@@ -42,7 +42,7 @@ Status of the board feature's bringup :
     </tr>
     <tr>
       <td>UART-to-USB</td>
-      <td>⚠️</td>
+      <td>🚫</td>
     </tr>
     <tr>
       <td>SOM-to-SOM 8x differential-pairs bus</td>
