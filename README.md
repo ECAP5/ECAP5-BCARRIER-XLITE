@@ -20,7 +20,7 @@ Status of the board feature's bringup :
   <thead>
     <tr>
       <th>Feature</th>
-      <th>1.0</th>
+      <th>rev-1.0</th>
     </tr>
   </thead>
   <tbody>
