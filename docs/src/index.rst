@@ -32,5 +32,13 @@ License
 .. toctree:: 
    :maxdepth: 5
    :hidden:
+   :caption: Design
 
    design/index
+
+.. toctree:: 
+   :maxdepth: 5
+   :hidden:
+   :caption: Errata
+
+   errata/1.0.rst

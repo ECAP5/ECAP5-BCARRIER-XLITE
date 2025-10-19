@@ -1,0 +1,26 @@
+1.0
+===
+
+E001 - UART power
+-----------------
+
+.. list-table::
+   :widths: 10 90
+
+   * - Impacted revision
+     - :bdg-primary-line:`1.0`
+
+   * - Criticity
+     - :bdg-danger:`critical`
+
+   * - Description
+     - The FT232R IC requires a 5V supply voltage whereas the board provides only 3.3v.
+
+   * - Impact
+     - The UART-to-USB sub-circuit does NOT work.
+
+   * - Workaround
+     - Reword the board to replace the 3.3v LDO (U2) with a 5v LDO. Rework the board to replace the 3.3v connection on the user buttons with a resistor/3.3v zener diode combo connected to the 5v LDO.
+
+   * - Linked issue
+     - `Issue #11 <https://github.com/ECAP5/ECAP5-BCARRIER-XLITE/issues/11>`_
