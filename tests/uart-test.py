@@ -31,39 +31,46 @@ import random
 import string
 import time
 
-HELLOWORLD_BAUDRATE = 115200
+BAUDRATES = [
+    9600, 115200, 460800, 921600, 2000000, 3000000, 4000000, 5000000, 6000000, 12000000
+]
 
 def list_devices() -> int:
     pyftdi.ftdi.Ftdi.show_devices()
     return 0
 
 def receive_thread(port : str, baudrate : int, num_bytes : int, read_data : list[bytes]) -> None:
-    reader = pyftdi.serialext.serial_for_url(port, baudrate=baudrate, timeout=0.1)
+    try:
+        reader = pyftdi.serialext.serial_for_url(port, baudrate=baudrate, timeout=0.1)
 
-    done = False
-    while not done:
-        read_data[0] = reader.read(num_bytes)
-        if(len(read_data[0]) > 0):
-            done = True
+        done = False
+        while not done:
+            read_data[0] = reader.read(num_bytes)
+            if(len(read_data[0]) > 0):
+                done = True
 
-    reader.flushInput()
-    reader.flushOutput()
-    reader.close()
+        reader.flushInput()
+        reader.flushOutput()
+        reader.close()
 
-    read_data[0] = read_data[0].decode("utf-8")
+        read_data[0] = read_data[0].decode("utf-8")
+        read_data[1] = 0
+    except ValueError:
+        read_data[1] = 1
     return
 
 def test_helloworld(write_device: str, read_device: str) -> int:
+    print("Running helloworld test...")
     data = "Hello World!"
 
     # Read data will be written in this mutable table
     read_data = [[]]
     # Start the reading thread first
-    rt = threading.Thread(target=receive_thread, args=(read_device, HELLOWORLD_BAUDRATE, len(data), read_data))
+    rt = threading.Thread(target=receive_thread, args=(read_device, BAUDRATES[0], len(data), read_data))
     rt.start()
     
     # Write the data
-    writer = pyftdi.serialext.serial_for_url(write_device, baudrate=HELLOWORLD_BAUDRATE)
+    writer = pyftdi.serialext.serial_for_url(write_device, baudrate=BAUDRATES[0])
     writer.write(data)
 
     # Wait for the data to be read
@@ -78,7 +85,61 @@ def test_helloworld(write_device: str, read_device: str) -> int:
     return data != read_data
 
 def test_bandwidth(write_device : str, read_device: str) -> int:
-    return 0
+    print("Running bandwidth test : ", end="")
+    print("{} -> {}".format(write_device, read_device))
+
+    # Test each baudrate
+    for baudrate in BAUDRATES:
+        data = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(baudrate))
+
+        print("{} baud ".format(baudrate), end="", flush=True)
+
+        # Read data will be written in this mutable table
+        read_data = [[], 0]
+        # Start the reading thread first
+        rt = threading.Thread(target=receive_thread, args=(read_device, baudrate, len(data), read_data))
+        rt.start()
+
+        # Write the data
+        try:
+            writer = pyftdi.serialext.serial_for_url(write_device, baudrate=baudrate)
+
+            start_time = time.time()
+            writer.write(data)
+            end_time = time.time()
+
+            bitrate = (len(data)*8) / (end_time - start_time)
+
+            # Wait for the data to be read
+            rt.join()
+            writer.close()
+
+            # If the baudrate on the reading port is not supported
+            if read_data[1] != 0:
+                print("not supported")
+                continue
+
+            read_data = read_data[0]
+
+            if len(data) != len(read_data):
+                print("KO - expected {} bytes, read {} bytes".format(len(data), len(read_data)))
+                continue
+
+            # Compare the read data with the expected data
+            num_errors = 0
+            for i in range(len(data)):
+                if data[i] != read_data[i]:
+                    num_errors += 1
+
+            if num_errors > 0:
+                print("KO - {} erroneous bytes".format(num_errors))
+            else:
+                print("OK - {} bytes at {:.0f}kbps".format(len(data), bitrate / 1000.0))
+        except ValueError:
+            print("not implemented")
+            continue
+
+    return num_errors
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -108,6 +169,7 @@ if __name__ == "__main__":
         sys.exit(err)
     elif args.mode == 'bandwidth':
         err = test_bandwidth(args.device1, args.device2)
+        err = test_bandwidth(args.device2, args.device1)
         sys.exit(err)
     else:
         print("Unimplemented mode : {}".format(args.mode))
