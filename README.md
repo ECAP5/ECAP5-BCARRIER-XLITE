@@ -30,15 +30,15 @@ Status of the board feature's bringup :
     </tr>
     <tr>
       <td>SOM power</td>
-      <td>⏲️</td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>SOM JTAG</td>
-      <td>⏲️</td>
+      <td>⚠️</td>
     </tr>
     <tr>
       <td>SOM reset</td>
-      <td>⏲️</td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>UART-to-USB</td>
